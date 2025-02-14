@@ -1,0 +1,1186 @@
+---
+title: "Portfolio"
+format: html
+---
+
+On this page, I present the data science and analysis projects I've participated in over the past few years. Unfortunately, I've only organized and documented reports from projects between 2015 and the present. I evaluated hundreds of other databases between 2002 and 2014, but those analyses got lost in the shuffle (🤣😂😁).
+
+The projects are classified by area and identified with a generic title, which may or may not be a translation of the original work (whether published or not). For each project, I provide a brief description of the goals, characteristics of the data used, and the statistical methodology (technique, analysis, or tests) employed.
+
+These projects don't include the quantitative analyses I did in my academic research, which can be found on the Publications page.
+
+# Biology
+
+::: {.callout-note collapse="true" icon="false"}
+## Exploration of Amazon lan Chestnut (Bertholletia excelsa Bonpl.) in Southern Roraima: Meaning and Local Ecological Knowledge of Farmers
+
+-   **Objectives:** To examine the meaning of being an extractive amazon nut for farmers in Southern Roraima, integrating their experiences in the activity, cultural aspects, and local ecological knowledge about the species' conservation. The study aimed to relate experience in activity, cultural aspects, and local ecological knowledge with the conservation of the species.
+-   **Data:** A semi-structured questionnaire (n = 18) was used to collect data from farmers. The level of measurement of most variables was nominal, with a concentration of responses and limited variability.
+-   **Methodology:** Due to the sample size and limited variability, descriptive analysis and bivariate analysis were used. Nonparametric tests, including Spearman Correlation and Mann-Whitney Test, were adopted for analysis due to the nominal nature of the data and small sample size.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Evaluation of water and sediment quality in the João Leite public supply reservoir
+
+-   **Objectives:** To evaluate water and sediment quality in the João Leite river reservoir during both rainy and dry seasons.
+-   **Data:** Repeated measures of water and sediment quality from the reservoir.
+-   **Methodology:** Descriptive analysis, Principal Component Analysis (PCA) to reduce dimensions, and Mixed Generalized Linear Models (GzMM) to analyze repeated measures while considering normal distribution for variable response and identity binding function.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Effect of the zones of the planted forest on soil HS composition, soil aggregation and their relationship with the rehabilitation process
+
+-   **Objectives:** To compare riparian forest areas under the effect of flooding in three categories: Experimental area (planted with native forest), Degraded area (without vegetation), and Preserved area. The study focused on soil aggregation, porosity, and humic and luvidos AC formation, aiming to understand the recovery process of the planted area.
+-   **Data:** Soil samples were collected from three zones within each area type regarding functional aggregation criteria, porosity, and AC formation.
+-   **Methodology:** Descriptive analysis, Principal Component Analysis (PCA) with research variables followed by a General Linear Model (GLM) analysis with sites and zones as factors, and Cluster Analysis (CA) to explore site and zone aggregation based on the collected attributes.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Productivity in the irrigation of lettuces with salted water
+
+-   **Objectives:** Evaluate the productivity differences of lettuce cultivated using hydroponics and irrigated with various brackish water treatments.
+-   **Data:** Data collected from three experiments and five treatments (factors), including information on 12 variables related to lettuce mass, leaves, and mineral content.
+-   **Methodology:** Three MANOVAs were conducted for mass, leaf, and mineral analysis, followed by multiple comparisons using Bonferroni adjustment to identify significant differences.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Degree of ecological knowledge
+
+-   **Objectives:** Analyze the relationship between ecological knowledge and factors such as age, education level, time living in the community, and experience in the "pre-village" period among 51 indigenous people.
+-   **Data:** Data on age, education, time living in the community, and "pre-village" experience, along with two measures of ecological knowledge (repertoire and competencies) assessed through standardized tests.
+-   **Methodology:** Path analysis was used to evaluate the relationships between the variables, specifically focusing on mediation analysis to understand how the factors influence ecological knowledge.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Restoration of mangroves: the role of herbivores and herbivory control
+
+-   **Objectives:** Analyze the relationship between the number of herbivorous animals, propagules, and environmental variables (precipitation, salinity, pH, temperature) in three mangrove species (Laguncularia racemosa, Avicennia germinans, Rhizophora mangle) in São Luiz/MA.
+-   **Data:** Time-series data collected over 36 months between 2009 and 2012.
+-   **Methodology:** Nonparametric tests (Kruskal-Wallis, Spearman correlation, Kendall's partial post-order correlation) were used for bivariate analysis due to non-normality of the data. Structural Equation Modeling (SEM) was used for statistical modeling due to the presence of four endogenous variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Spatial distribution and perceived effects of invasive plant: Acacia mangium Willdenow in Roraima Indigenous Lands, Brazil
+
+-   **Objectives:** Understand the spatial distribution and perceived effects of the invasive Acacia mangium Willd in three indigenous communities in the northern Brazilian Amazon. Research questions included identifying the habitats of invasive plants, abundance in swiddens, influence of distance from commercial planting, and effects on indigenous gardens.
+-   **Data:** Data on spatial distribution of Acacia mangium Willd and perceived effects in three communities.
+-   **Methodology:** Descriptive analysis, Mann-Whitney test for assessing relationships between perceived effects and coexistence time, Multiple Linear Regression to analyze the relationship between distance from plantation and acacia density, and Path Analysis with Bootstrap resampling to address potential issues with the dataset (small sample size, non-normality, outliers).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Ecological knowledge of the invasion of Acacia mangium Wildenow in indigenous lands in the northern Brazilian Amazon
+
+-   **Objectives:** Analyze the ecological knowledge of Wapichana and Macuxi indigenous people regarding the invasion of Acacia mangium Willd in savannah ecosystems. The study focuses on plant recognition, location, knowledge time, and perceived changes in community routine.
+-   **Data:** Data from semi-structured interviews with approximately 100 individuals from three communities.
+-   **Methodology:** Descriptive analysis, Chi-square tests to assess relationships between nominal variables, Mann-Whitney and Kruskal-Wallis tests for differences between scalar and nominal variables, and Spearman Correlation for analyzing scaled variables.
+:::
+
+# Business
+
+::: {.callout-note collapse="true" icon="false"}
+## Evaluation of the environmental dimension in the quality of the services of a university library by the SERVQUAL methodology
+
+-   **Objectives:** To examine the influence of the importance of environmental practices on the perceived quality of library services. The study investigated the relationship between the degree of importance assigned to environmental practices by library users and their perception of service quality.
+-   **Data:** Data collected through a questionnaire incorporating five questions measuring the importance of environmental practices and the SERVQUAL scale for libraries.
+-   **Methodology:** Reliability of the SERVQUAL scale was assessed. An Exploratory Factor Analysis (EFA) was conducted on environmental practice variables. Spearman correlations were used to examine the relationship between SERVQUAL dimensions, environmental practice factor, and profile variables. Kruskal-Wallis test was also employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Street retail hubs or shopping malls? Comparing low-income preferences
+
+-   **Objectives:** To compare low-income consumer preferences for street retail hubs versus shopping malls. The project aimed to replicate a 2012 study that compared these two retail cluster types.
+-   **Data:** Data from a pre-existing study, with additional data collected through questionnaires to validate the findings. The study included profile variables and information on consumer preferences.
+-   **Methodology:** Initially, a structural equation modeling (SEM) approach was planned but replaced with pre-tests and quantitative data treatment including reliability analysis (Cronbach's Alpha). Descriptive statistics, comparison of means, and Multiple Regression Analysis were employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## An evaluation of the allocation of CIDE technology to the Program of Incentive to Interaction University Company to Support Technological Innovation: a FINEP case study
+
+-   **Objectives:** To evaluate the allocation of CIDE technology resources to the Program for Stimulating University-Company Interaction to Support Innovation (FINEP case study). The aim was to determine if the resource allocation aligned with the stipulated percentages.
+-   **Data:** Historical data on resource allocation from Law 10.168/2000.
+-   **Methodology:** Descriptive analysis of aggregated data was conducted to evaluate the historical allocation of resources and compare it with the legal provisions.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Market orientation, learning guidance and business performance
+
+-   **Objectives:** To evaluate the association between market orientation constructs, learning orientation, and perceived business performance.
+-   **Data:** Data collected from a small sample of respondents through questionnaires.
+-   **Methodology:** Due to the small sample size and limitations of the measurement instruments, nonparametric correlations (Spearman and Kendall's Partial Correlation) were used instead of the initially intended Structural Equation Modeling (SEM).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Expert Report on Sample Calculation
+
+-   **Objectives:** To provide a technical report clarifying statistical aspects of sample calculations to assist the court in a case involving audited glosses at a private hospital.
+-   **Data:** Spreadsheet of audited glosses from a private hospital.
+-   **Methodology:** The report provided technical explanations and clarifications regarding sample calculations and statistical considerations relevant to the court's decision-making.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Slaughter industry in Brazil: analysis of the costs of accidents and illnesses at work
+
+-   **Objectives:** To identify, estimate, and project the financial costs associated with sick leave due to workplace accidents and illnesses in the poultry slaughter industry.
+-   **Data:** Data from 3,526 cases of withdrawals due to accidents/illnesses in a poultry processing plant, along with company payroll data.
+-   **Methodology:** Data cleaning and structuring were performed. Costs were estimated based on wage payments, receipts, compensation, taxes, and contributions. Analysis was conducted based on gender, functions, sectors, and types of diseases.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## R&D Internationalization: Degree of technological complexity attributed to multinational subsidiaries
+
+-   **Objectives:** To evaluate the research methodology employed in a study on R&D internationalization and the degree of technological complexity attributed to multinational subsidiaries. Specifically, to describe the application of Structural Equations Modeling (SEM).
+-   **Data:** Data from the research study "Internationalization of R&D: analysis of the degree of technological complexity attributed to multinational subsidiaries".
+-   **Methodology:** Description of the quantitative research procedures, with a focus on the application of SEM.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The relationships between environmental variables and organizational variables in startup performance
+
+-   **Objectives:** To investigate the relationship between environmental and organizational variables and startup performance.
+-   **Data:** Data collected through research on startups, including information on environmental and organizational variables and performance indicators.
+-   **Methodology:** The project proposed the use of Structural Equation Modeling (SEM). If data limitations prevented SEM application, descriptive analysis, bivariate analyses (correlation analysis and hypothesis tests), and potentially exploratory factor analysis (EFA) were suggested.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Federal Public University Planning: The Case of the Institutional Project of UNIPAMPA
+
+-   **Objectives:** To evaluate the implementation of the Institutional Plan (PI) of the Federal University of Pampa - UNIPAMPA.
+-   **Data:** Data collected through a structured questionnaire applied to UNIPAMPA managers. The questionnaire covered strategic planning, resource allocation, processes, leadership, and attitudes.
+-   **Methodology:** Principal Components Analysis was used to reduce the dimensions of the questionnaire. Relationships between identified factors and other variables were explored using Pearson or Spearman correlation and mean tests. Descriptive statistics were also employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Insights into Financial Sustainability in Third Sector Educational Organizations aimed at People with Disabilities
+
+-   **Objectives:** To investigate perceptions of high and middle management regarding financial sustainability in APAES (Association of Parents and Friends of Exceptional Children) in Goiás and Espírito Santo.
+-   **Data:** Data collected through qualitative and quantitative methods, including a semi-structured questionnaire with open and closed questions.
+-   **Methodology:** Descriptive statistics and Content Analysis were employed for data analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Quality of Relationship and Co-creation of Value in Interorganizational Relations of Innovation
+
+-   **Objectives:** Investigate the association between Relationship Quality (QRL) and Value Co-creation (CCV) among organizational actors collaborating in innovation projects.
+-   **Data:** Responses from a validated questionnaire on key constructs (QRL and CCV), collected from organizations participating in innovation projects across the national territory. Strategic decision-makers within companies were the target participants.
+-   **Methodology:** Variance-based Structural Equation Modeling (VB-SEM) using the PLS-SEM algorithm was employed due to the complexity of the measurement models (third-order hierarchical) and the formative nature of the constructs.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The Influence of Governance Modes on Transition Initiatives for Sustainable Cities Based on ODS-11.2 and 11.6: A Study in Municipalities in the Southern Region of Brazil
+
+-   **Objectives:** Verify the effects of different municipal public governance modes on transition initiatives to sustainable cities, considering targets 11.2 and 11.6 of ODS-11, in municipalities located in Southern Brazil.
+-   **Data:** Survey data from 185 questionnaires collected from cities with over 20,000 inhabitants. The questionnaire included information on municipality characteristics, respondent demographics, municipal governance, and initiatives aimed at transitioning to sustainable cities.
+-   **Methodology:** Variance-based SEM (VB-SEM) using the Partial Least Squares SEM (PLS-SEM) algorithm due to the formative nature of the constructs and the complexity of the model (structural model with reflective and third-order composite constructs).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Analysis of Perceived Discrimination and Strategies for Coping with LGBTI+ People in Consumer Relations in Brazil
+
+-   **Objectives:** Measure perceived discrimination and coping strategies adopted by LGBTI+ consumers in Brazilian consumer relations.
+-   **Data:** Questionnaire data from 325 individuals on discrimination in consumer relations, coping strategies, and sociodemographic information.
+-   **Methodology:** Validation of measurement models and adjustment of a structural model within the framework of Variance-based Structural Equation Modeling (VB-SEM) using the PLS-SEM algorithm, performed in SmartPLS 4.0 software.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Financial literacy, personality traits and emotional intelligence
+
+-   **Objectives:** Collect information on financial literacy (knowledge, attitude, behavior), the Big Five personality traits, and emotional intelligence. The goal is to explore the relationships between these variables.
+-   **Data:** Data on financial literacy, Big Five personality traits, and emotional intelligence were collected through established psychometric scales.
+-   **Methodology:** Reliability analysis was conducted for each measurement model due to their good psychometric properties. Multiple Regression Analysis (MLR) was then performed as requested by the sponsor.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Institutional vacuum, deficit in basic sanitation and health problems
+
+-   **Objectives:** Investigate the relationship between institutional vacuum and health problems, mediated by a lack of basic sanitation, in Brazilian municipalities from 2010 to 2019.
+-   **Data:** Sociodemographic variables, health data, and sanitation data aggregated at the municipal level from 2010-2019.
+-   **Methodology:** Two main approaches were used: 1) PCA followed by longitudinal mediation models (Cross-Lagged Panel Model, Latent Growth Mediation Model, Latent Change Model, Random Slopes Model, Latent Interactions Model, Path Analysis); and 2) Complete process analysis using PLS-SEM (Evolution model and Change model). Ultimately, Path Analysis with random intercepts and measurement models from 27 PCAs was the chosen method.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The Influence of Dynamic Capabilities on Digital Disruption Efforts of Companies Inserted in Knowledge-Intensive Innovation and Entrepreneurship Ecosystems
+
+-   **Objectives:** Investigate the influence of dynamic capabilities on digital disruption efforts, considering the mediating effect of knowledge intensity in companies within innovation and knowledge-intensive entrepreneurship ecosystems.
+-   **Data:** Quantitative data from a questionnaire applied to 273 individuals working in companies within innovation environments. The questionnaire included previously validated scales for dynamic capabilities, business performance, and digital platform capacity, and the measurement model for knowledge intensity was adapted from Autio et al. (2000).
+-   **Methodology:** A complex structural model was adjusted using PLS-SEM. This involved a third-order measurement model for dynamic capabilities, a second-order model for digital platform capacity, a reflexive model for knowledge intensity, and a formative model for process performance. The PLS-SEM approach was chosen due to the complexity and data characteristics.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The impacts of the first year of the COVID-19 pandemic for Brazilian workers over 60 years old
+
+-   **Objectives:** To describe and qualify the experiences of Brazilian workers over 60 (TB60+) during the first year of the COVID-19 pandemic. Objectives included investigating the relationship between active aging factors and intention to continue working, identifying professional opportunities and challenges, and proposing a classification model for TB60+.
+-   **Data:** Survey data collected through a questionnaire with variables about demographics, active aging factors, professional experiences, and intention to continue working.
+-   **Methodology:** Descriptive analysis, Chi-square test/Fisher's exact test for relating groups to questionnaire variables, and proportion tests using chi-square statistics were performed. Bonferroni adjustments were used for comparisons.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Corporate financial performance and its relationship to corporate social performance, corporate reputation, advertising, advertising and communication during the Covid-19 pandemic
+
+-   **Objectives:** To investigate the relationship between corporate financial performance and corporate social performance, corporate reputation, advertising, and communication during the COVID-19 pandemic.
+-   **Data:** The type of data and specific details of the variables are not specified, but it was panel data.
+-   **Methodology:** Panel data models with random effects were proposed due to the research problem, operationalization of variables, and data structure.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Purchasing Managers Index (PMI) for Bran, Corn and Feed in the States of Minas Gerais and Goiás
+
+-   **Objectives:** Develop a formula to calculate the Purchasing Managers Index (PMI) for soybean meal, corn, and feed.
+-   **Data:** Research conducted with purchasing managers of companies in Minas Gerais and Goiás.
+-   **Methodology:** Information on the specific methodology used for calculating the PMI is not provided in the description.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The effect of the Shop-in-Shop strategy on the intention to buy: a study on a sports brand
+
+-   **Objectives:** Investigate the effect of the Shop-in-Shop (SIS) strategy on purchase intention, brand image perception, and perceived quality of sporting goods in popular sporting goods stores.
+-   **Data:** Survey data from sporting goods consumers collected during/after purchasing or researching items in stores with SIS displays.
+-   **Methodology:** Exploratory Factor Analysis (EFA) followed by Confirmatory Factor Analysis (CFA) to validate the measurement model. Nonparametric tests (Mann-Whitney, Kruskal-Wallis, Spearman correlation) were conducted, and a Structural Equation Modeling (SEM) was adjusted to test the research hypotheses.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Personality Traits and Project Success
+
+-   **Objectives:** Verify the influence of personality traits (extroversion, socialization, conscientiousness, neuroticism, openness) on project success.
+-   **Data:** Data collected through an online questionnaire from 205 individuals, divided into sections assessing personality traits using the Big Five model, project success using a separate instrument, and sociodemographic questions.
+-   **Methodology:** Cronbach's Alpha was used to evaluate internal consistency for each Big Five factor. For the Project Success instrument, an Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA) were conducted to validate the measurement model. Correlation analysis was conducted between factor scores, and a Structural Equation Model (SEM) was adjusted.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Experience, Personality and Brand Equity
+
+-   **Objectives:** Examine the relationship between Brand Personality (PE), Brand Equity (EQ), and Brand Experience for two brands (Colgate and Coca-Cola).
+-   **Data:** Questionnaire data from approximately 800 observations (400 individuals), with each individual answering for both brands. Scales measuring PE, EQ, and Brand Experience were used.
+-   **Methodology:** Structural Equation Modeling (SEM) was used to analyze the relationships, with a 2nd order model implemented to address the latent constructs and two responses per individual.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Potentialities and weaknesses of patient safety centers in hospital services
+
+-   **Objectives:** Identify potentialities and weaknesses of implementing patient safety centers (NSP) in hospital institutions.
+-   **Data:** Questionnaire data with open-ended questions. Sample size was small, with some missing data present.
+-   **Methodology:** Nonparametric Mann-Whitney tests were conducted to relate the number of beds to other variables of interest, as requested by the sponsor.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Validation of the Authentic Leadership Questionnaire (ALQ)
+
+-   **Objectives:** Validate the Authentic Leadership Questionnaire (ALQ) in both rater and self versions, meaning the same individual answered the questionnaire twice, once evaluating their boss and once evaluating themselves.
+-   **Data:** Data from individuals who completed the ALQ twice, once rating their immediate boss (rater version) and once rating themselves (self version).
+-   **Methodology:** Descriptive analysis, Confirmatory Factor Analysis (CFA) with an exploratory approach as suggested by Credé and Harms (2015), as also used by the original authors of the ALQ (Avolio, Wernsing and Gardner, 2018).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Working day and productivity of the rural properties of Campo Mourão and Araruna
+
+-   **Objectives:** Evaluate productivity (daily milk production) and working hours (weekly working time) in rural dairy farms, and their relationship to other variables.
+-   **Data:** Data on productivity, working hours, and other scaling and nominal variables related to dairy farms in Campo Mourão and Araruna.
+-   **Methodology:** Spearman's correlation was used for relationships between scaling variables. Mann-Whitney (MW) test was used for nominal variables with up to two categories, and Kruskal-Wallis (KW) test was used for nominal variables with more than two categories.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Consumer donation behavior in retail
+
+-   **Objectives:** Understand the socio-demographic and psychological profile of retail customers who donate their change.
+-   **Data:** Two databases: one with purchase data from over 300,000 customers and another with survey data including four psychological scales from 1,600 customers who donated.
+-   **Methodology:** Sampling process to analyze the effect of situational factors on donation behavior, followed by various models: binary and ordinal logit, Poisson, and hierarchical Tobit.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Resilient Integrity Potential
+
+-   **Objectives:** Develop a scale to measure resilient integrity potential, focusing on misappropriation, harassment, corruption, and fraudulent demonstrations.
+-   **Data:** Questionnaire data with simple, discursive, and video-choice questions. Specialist analysis categorized responses as high, medium, or low resilience. The sample size was small with several missing values.
+-   **Methodology:** Several Principal Component Analyses (PCAs) were conducted to reduce the number of items and identify the most viable ones for future studies. The limited sample size constrained further analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Sustainable process management: challenge for micro and small businesses
+
+-   **Objectives:** Evaluate the relationship between business process orientation (BPO) and socio-environmental management practices (PGS) in micro and small companies in Rio de Janeiro.
+-   **Data:** Questionnaire data on BPO and PGS from micro and small companies in Rio de Janeiro. The BPO instrument was adapted from existing literature.
+-   **Methodology:** Reliability analysis of BPO and PGS instruments using Cronbach's alpha. Descriptive analysis followed by bivariate analyses (Spearman correlation and Kendall's partial correlation) were conducted.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Eco-innovation practices present in the textile industries of southern Brazil
+
+-   **Objectives:** Analyze the degree of eco-innovation practices (product, process, organizational) in Southern Brazilian textile industries.
+-   **Data:** Survey data from respondents working in textile industries, including Likert-scale questions on eco-innovation practices, sustainability, and environmental responsibility.
+-   **Methodology:** Descriptive and bivariate analyses (Friedman, Kruskal-Wallis, Spearman correlation) were performed. Principal Component Analysis was applied to reduce the 18 Likert-scale questions, and Bonferroni adjustment was used for post hoc comparisons.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The importance of leadership communication for decision-making: exploratory analysis of organizations in Brazil
+
+-   **Objectives:** Identify the variables of leadership communication in decision-making and their influence within different types of organizations in Brazil. Two conceptual models were proposed and evaluated.
+-   **Data:** Data on leadership communication and decision making in organizations in Brazil. Four measurement models (Leadership, Communication, Decision Making, and Organizational Effectiveness) were evaluated.
+-   **Methodology:** Exploratory Factor Analysis (EFA) was applied to each construct followed by Confirmatory Factor Analysis (CFA) to refine the measurement models. Multigroup Analysis was conducted using company sector as the grouping variable. Two structural models were adjusted, refined, and compared.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Educating City and Democratic Management of the City: The Perception of The Education Management Councillors and School Managers in Vilhena/RO City
+
+-   **Objectives:** Assess the perception of education management councillors and school managers regarding the Educating City and democratic management principles, as outlined in the City Statute.
+-   **Data:** Questionnaire data with dichotomous, scaled, and open-ended questions based on the Educating City and democratic city management principles.
+-   **Methodology:** Descriptive statistics and Chi-square tests were used for analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Entrepreneurial Profile and Performance in the Scope of Individual Microentrepreneurs: A Study in Catalão (GO)
+
+-   **Objectives:** Evaluate the relationship between entrepreneurial characteristics and business performance of individual microentrepreneurs in Catalão (GO).
+-   **Data:** Adapted survey instrument for assessing entrepreneurial characteristics (originally designed for farmers), performance data from SEBRAE/GO, and data from Electoral Court and Federal Revenue.
+-   **Methodology:** Exploratory Factor Analysis (EFA) was conducted to assess the adapted instrument. Descriptive analyses, non-parametric tests (Mann-Whitney and Kruskal-Wallis), and Spearman correlation were used to analyze the data.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Effects of the built environment on dynamic repertoires of activity-travel behavior
+
+-   **Objectives:** Understand how development of the environment affects travel behavior.
+-   **Data:** Longitudinal data from 1992 to 2011 collected in Rotterdam, Netherlands. Questionnaire data included variables on demographics, household, mobility, occupation, and urban form.
+-   **Methodology:** Generalized Structural Equation Modeling (GSEM) was chosen due to its ability to handle mediation effects, ordinal/multinomial variables, and repeated measurements with potential random effects.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Brand value for private higher education institutions from the consumer's perspective
+
+-   **Objectives:** Develop a structural model of brand value for private higher education institutions from the consumer's perspective. Seven measurement models were validated: University Experience, Controlled Brand Communication, e-WOM, Co-creation, Brand Awareness, Brand Association, and Brand Value of IES.
+-   **Data:** Data from approximately 1,200 questionnaire responses.
+-   **Methodology:** Exploratory Factor Analysis (EFA) was followed by Confirmatory Factor Analysis (CFA) to refine measurement models, which were then used in a Structural Equation Modeling (SEM) analysis. Path Analysis, with the factors as observed variables, was used for parsimony.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## In the view of Brazilian consumers, what are the determining variables for the success of business models oriented to sharing?
+
+-   **Objectives:** Identify the determining variables for the success of sharing-oriented business models and analyze if perceptions differ across gender, age, and income.
+-   **Data:** Questionnaire data with 30 non-standardized questions from Brazilian consumers on the determining variables of success in sharing economy business models.
+-   **Methodology:** Exploratory Factor Analysis (EFA) was employed. The specific analysis techniques applied were not specified.
+:::
+
+# Economics
+
+::: {.callout-note collapse="true" icon="false"}
+## A study of the growth of frivolous consumer cases in the civil courts of the Court of Justice of the State of Paraná.
+
+-   **Objectives:** To examine the relationship between frivolous consumer lawsuits and judicial gratuity in the civil courts of Paraná from 2016 to 2022. The goal was to identify any relationship between these variables, considering the year and outcome of the lawsuits.
+-   **Data:** Data from 2,649 lawsuits classified as frivolous (yes/no) and gratuitous (yes/no), including information on the year and outcome of the lawsuit.
+-   **Methodology:** Descriptive analysis, bivariate analysis (chi-square test, odds ratio, Cramer's V), and a binary logit model (logistic regression) were employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Evidence of the relationship between economic growth and expansion of Brazilian bank credit
+
+-   **Objectives:** Investigate the relationship between economic growth and financial credit in Brazilian sub-regions from 2005-2016.
+-   **Data:** Balanced panel data from 84 Brazilian sub-regions between 2005 and 2016.
+-   **Methodology:** Four models were adjusted using two approaches: static panel and dynamic panel. Control variables and time dummies were included in the models. Model evaluation involved checking persistence coefficient significance and various diagnostic tests.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The use of spatial analysis in the study of the relationship between teacher expectation and proficiency of 9th grade elementary school students in Brazil
+
+-   **Objectives:** Relate teacher perceptions and expectations to school performance using spatial econometrics.
+-   **Data:** Secondary data from SAEB (2013, 2017) on 9th-grade student performance in math and Portuguese. Principal Component Analysis (PCA) was used to create variables for teacher perceptions and expectations.
+-   **Methodology:** Exploratory Spatial Data Analysis (ESDA), Spatial Regressions (SAR, SEM, SAC) using Geoda and Geodaspace software.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Economic growth and expansion of financial credit in the sub-regions of Rio Grande do Sul between 2006 and 2019
+
+-   **Objectives:** Investigate the relationship between economic growth and financial credit in sub-regions of Rio Grande do Sul.
+-   **Data:** Data from 497 municipalities in Rio Grande do Sul, grouped into nine sub-regions, between 2005 and 2019. Data includes GDP variation and various credit variables.
+-   **Methodology:** Four fixed-effects panel data models were estimated, one for each hypothesis related to credit variables. Control variables for delinquency, long-term credit, high-risk credit, and number of credit operations were included.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Teacher expectations and performance of 9th graders in Brazil
+
+-   **Objectives:** Investigate the relationship between teacher expectations and 9th grader performance in Brazil.
+-   **Data:** Secondary data from SAEB and Prova Brasil (2020). Variables included student proficiency in math and Portuguese, teacher expectations (measured through PCA of questionnaire data), teacher support, teacher training, school management complexity, and socioeconomic level of schools.
+-   **Methodology:** Spatial Econometric Model with municipal average proficiency as the dependent variable and teacher expectations as the independent variable, controlling for teacher support, training adequacy, school management complexity, and socioeconomic levels.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Efficiency of The Management of Public Policies of Education in High School in the Brazilian States in the period 2005 to 2017
+
+-   **Objectives:** Verify the relationship between efficiency of resource application in high school education and the Human Development Index (HDI) in Brazilian states from 2005-2017.
+-   **Data:** Panel data from Brazilian states on education resource application and HDI.
+-   **Methodology:** The specific statistical techniques used for modeling were not specified.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Credit Spreads: Empirical Application of the Structural Model in Brazil
+
+-   **Objectives:** Study the ability of structural models to explain credit spread variations in Brazilian corporate debt securities.
+-   **Data:** Macroeconomic data from a public database of 38 corporate debt securities of 11 Brazilian companies between 2011 and 2016.
+-   **Methodology:** Panel data modeling with standard errors estimated using the Fama-Macbeth method.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Relationship between child labor and the participation of the family grant in household income
+
+-   **Objectives:** Evaluate the relationship between child labor and participation in the Bolsa Família social program in Macapá, focusing on low-income households in a high-risk area.
+-   **Data:** Interview data from a questionnaire with 35 sociodemographic variables, information about child labor, and participation in federal government social programs.
+-   **Methodology:** Descriptive and bivariate analyses were conducted using Fisher's exact test, Mann-Whitney test, and Spearman correlation. A Logit Model was used to assess the influence of family grants on child labor, controlling for other variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Relationship between child labor and participation in social programs of the federal government
+
+-   **Objectives:** Evaluate the relationship between child labor and participation in the Bolsa Família federal government social program.
+-   **Data:** Data from the 2014 PNAD (National Household Sample Survey). The sample included a limited number of children aged 5-9 who worked (n=125).
+-   **Methodology:** Multivariate Log-log Complementary or Log-log Complement model was proposed to account for rare events and Descriptive and Bivariate analysis were used. The sampling strategy from PNAD was deemed potentially inadequate.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Companies internationalization drivers of innovation in São Paulo state
+
+-   **Objectives:** Identify the drivers of innovation internationalization for companies in São Paulo state. Three hypotheses were tested: 1) companies with international experience internationalize innovation; 2) companies with absorption capacity internationalize innovation; and 3) companies in countries with unfavorable National Innovation Systems internationalize their R&D and innovation.
+-   **Data:** Information about companies, internationalization, and innovation activities.
+-   **Methodology:** Descriptive and Bivariate Analyses were used due to the expectation of a small sample size and exploratory nature of the research. Nonparametric tests were proposed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Factors Components of State Power
+
+-   **Objectives:** Validate a scale for measuring Factors Components of State Power (CPE) among Latin American military and civilians.
+-   **Data:** Questionnaire data from around 1150 individuals from various Latin American countries (Brazil, Venezuela, Colombia, Argentina, Uruguay, Peru, Ecuador, Chile, Bolivia, Paraguay), including military personnel, civilians, diplomats, and military scientists.
+-   **Methodology:** Confirmatory Factor Analysis (CFA) and Exploratory Factor Analysis (EFA) were conducted to validate the original ten-factor model. Multi-group analysis was performed to investigate scale invariance across Brazilians, foreigners, military personnel, and civilians.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Social networks, level of knowledge, correct voting and political ignorance
+
+-   **Objectives:** Study the relationship between social networks, knowledge levels, correct voting, and political ignorance in Brazilian presidential and federal deputy elections. The central question was whether social networks promote or hinder correct voting.
+-   **Data:** Large database on voting behavior, social network usage, and political knowledge.
+-   **Methodology:** Descriptive analysis, bivariate analyses, binary logit models, ordinal logit model, and stepwise procedures were employed after data structuring, organization, and cleaning.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Determining Factors of The Growth of Residential Real Estate in the Brazilian Market and Risk of the Existence of a Speculative Bubble in the Period Between 2001 and 2013
+
+-   **Objectives:** Investigate the presence of a bubble in the Brazilian real estate market from 2001-2013 and the factors influencing real estate prices.
+-   **Data:** Monthly time-series data on variables related to the real estate and civil construction sectors.
+-   **Methodology:** Johansen Cointegration Test for bubble detection, Granger Causality Test, and Vector Autoregression (VAR) for analysis of influencing factors followed by examination of Impulse Response Function (FIR) and Variance Decomposition (DV).
+:::
+
+# Education
+
+::: {.callout-note collapse="true" icon="false"}
+## The Teaching Conception on the Purposes of Cooperative Games in School Physical Education: Construction of an Evaluative Instrument
+
+-   **Objectives:** To construct and validate an evaluative instrument to investigate teachers' conceptions about the purposes of cooperative games in school physical education.
+-   **Data:** Data collected from teachers through a pilot study and a final sample. The data included responses to the developed questionnaire.
+-   **Methodology:** Kappa coefficient, Somers' D, Spearman correlation, and Cronbach's Alpha were used to assess agreement between evaluators, test-retest reliability, and internal consistency of the questionnaire.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Karate and Taekwondo and the development of people with intellectual disabilities
+
+-   **Objectives:** To evaluate the influence of karate and taekwondo practice on the development of people with intellectual disabilities.
+-   **Data:** Data on psychological aspects of individuals with intellectual disabilities before and after participating in karate and taekwondo programs.
+-   **Methodology:** Marginal Homogeneity Test, Signal Test, and Wilcoxon Test were used for analysis, considering paired samples before and after treatment.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Learning health professionals on the web: profiles and perceptions
+
+-   **Objectives:** To analyze the learning profile of doctors, nurses, and dentists regarding the use of the internet in their professional lives. To map similarities and differences between professional segments regarding online learning profiles.
+-   **Data:** Data collected from approximately 300 health professionals through a questionnaire.
+-   **Methodology:** Descriptive Analysis, Chi-square, Kruskal-Wallis, and Spearman's correlation were used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Production and evaluation of accessible materials in the teaching-learning process of Science and Biotechnology for visually impaired and norm seeing students
+
+-   **Objectives:** To evaluate accessible materials in the teaching-learning process of science and biotechnology for visually impaired and norm-seeing students. The project also aimed to re-evaluate prior incorrect multivariate analyses.
+-   **Data:** Sample data from 40 individuals (initially 70).
+-   **Methodology:** Multiple Linear Regression with stepwise method and univariate analysis were applied. ANOVA models and logistic regressions were also used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Inequalities of educational opportunities in Brazil: theoretical debates and empirical trends
+
+-   **Objectives:** To describe and analyze the intensity and trends of educational inequality in Brazil, focusing on the relationships between social origins and student proficiency.
+-   **Data:** Microdata from the Brazilian National Assessment of Basic Education (Saeb) for 5th and 9th-grade elementary school students and 3rd-year high school students.
+-   **Methodology:** Data cleaning, structuring, and stratified sampling were performed. Principal Component Analysis and multiple linear regression were used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Responsive and non-responsive website performance for the blind
+
+-   **Objectives:** To compare the usability of responsive and non-responsive websites for blind users.
+-   **Data:** Data collected from usability tests with 10 blind and 10 sighted users on six websites (two each for e-commerce, education, and entertainment). Data included completion times, task success rates, disorientation levels, and user feedback through questionnaires.
+-   **Methodology:** Survival Analysis (Kaplan-Meier and Cox regression) was used to analyze censored data (task completion times). Non-parametric tests (Mann-Whitney and Spearman's correlation) and Factor Analysis were also employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Social Entrepreneurship in Public Basic Education: A Training Proposal for Teachers and Managers
+
+-   **Objectives:** Investigate the understanding and practice of social entrepreneurship, applied entrepreneurship, and project development in basic education.
+-   **Data:** Survey data from 71 basic education professionals (teachers, specialists, principals, vice-principals) from five cities in Southern Minas Gerais.
+-   **Methodology:** Descriptive analysis of profile factors and questionnaire items, McDonald's Omega to determine reliability. Nonparametric tests were used for scale comparison: Spearman correlation, Mann-Whitney test, Kruskal-Wallis test, Friedman test. DSCF and Durbin-Conover tests were used as post-hoc tests. JASP and JAMOVI software were used for analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The Meaning and Local Ecological Knowledge of Farmers in Southern Roraima: A Qualitative Analysis
+
+-   **Objectives:** Examine the meaning of being an amazon nut extractor for farmers in Southern Roraima, by considering their experiences, cultural aspects, and local ecological knowledge.
+-   **Data:** Transcriptions of 13 unstructured interviews with amazon nut extractors.
+-   **Methodology:** Qualitative data analysis using IRaMuTeQ software. This included Word Cloud, Similitude Analysis, Analysis of Specificities, and Descending Hierarchical Classification (DHC).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Strength and body image training in schoolchildren from 6th to 9th grade / Sports physical fitness, body image, life habits and educational performance in students from 6th to 9th grade
+
+-   **Objectives:** (Study 1) Investigate the relationship between physical fitness, body image, and strength training in students from 6th-9th grade; (Study 2) Create a physical fitness coefficient based on PROESP, measure body catexe in relation to demographics, and correlate the coefficient to life habits, school performance, and attendance.
+-   **Data:** Data collected at six time points (T1-T6) over three years. Variables included profile/identification, physical fitness (PROESP), life habits (questionnaire), body image (Secord and Jourard Body Catexe Scale), and school performance (grades, attendance). Missing values were present.
+-   **Methodology:** Reliability assessment of measurements, McNemar and Wilcoxon tests for differences between moments, Mann-Whitney and Fisher's Exact tests and Spearman's correlation for differences between groups, Exploratory Factor Analysis for dimension reduction and creation of fitness coefficient, and a Generalized Estimating Equation (GEE) model to validate objectives.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Perception of parents and relationship of children in secondary schools in São Paulo
+
+-   **Objectives:** To assess the psychometric properties of several scales evaluating parent-child relationships in the context of secondary schools.
+-   **Data:** Cross-sectional data from \~1000 students in four secondary schools in São Paulo, including scales related to child discipline, family impact, gratitude, school impact, employee impact, and respect.
+-   **Methodology:** Confirmatory Factor Analysis (CFA) was conducted on the scales, followed by non-parametric tests to relate the scale scores. Structural Equation Modeling was not used due to a lack of a priori conceptual model.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Proposal, Implementation and Evaluation of a Teaching Methodology in Function Content
+
+-   **Objectives:** Analyze the effectiveness of the Problem-Solving Strategy (ERP) as a teaching methodology in high school, based on Ausubel's Theory of Significant Learning and Talízina's teaching direction.
+-   **Data:** Data from 80 students in the 1st grade of high school in Roraima, divided into experimental (ERP methodology) and control (traditional methodology) groups. Data collected on function content knowledge before and after implementation.
+-   **Methodology:** Reliability of the measurement instrument analyzed. Descriptive analysis and multiple regressions with pre-test scores as covariates were performed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Background of Learning and Attitude of Students towards Distance Learning
+
+-   **Objectives:** Evaluate a causal model relating individual factors, student performance, attitude towards distance learning, and its modality in higher education.
+-   **Data:** Data collected from a federal education center using a validated instrument.
+-   **Methodology:** Reliability analysis of the scales using Cronbach's Alpha, linear regressions to test hypotheses. Structural Equation Modeling (SEM) was not used due to limitations in sponsor competencies.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Study of Fungal Perception by High School Graduates
+
+-   **Objectives:** Investigate high school students' perception of fungi.
+-   **Data:** Questionnaire data with Likert-scale responses (1-4) about fungi knowledge from high school graduates.
+-   **Methodology:** Classical Test Theory (TCT) approach used to analyze item validity (difficulty, discrimination, reliability using Cronbach's Alpha). Principal Component Analysis (PCA) performed to check for unidimensionality. Kruskal-Wallis, Mann-Whitney tests, and multiple comparisons used to examine score differences between demographic variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Attitudes towards inclusion and the perception of self-efficacy: a study with teachers from the public school system of the Federal District/Brazil
+
+-   **Objectives:** Evaluate teachers' attitudes towards inclusion and their self-efficacy beliefs in the public school system of the Federal District.
+-   **Data:** Data collected from a sample of teachers in the Federal District public school system using two scales: one measuring attitudes towards inclusion and another measuring self-efficacy.
+-   **Methodology:** Exploratory Factor Analysis (EFA) on both scales followed by nonparametric tests (Spearman correlation, Mann-Whitney, Kruskal-Wallis) to relate the scales to socio-professional variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Analyzing the knowledge about fluid mechanics in the professional training of oil and gas operation technicians
+
+-   **Objectives:** Evaluate training course students' understanding of fluid mechanics.
+-   **Data:** Data collected at three time points using tests evaluating knowledge of fluid mechanics.
+-   **Methodology:** Descriptive analysis. Non-parametric variance analysis for related samples (Friedman test) to evaluate performance across the three moments. Kendall's concordance coefficient (W) used for test reliability, Wilcoxon Test (Z) for comparing two moments, and Spearman correlation (p) for assessing reliability.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Affectivity in school physical education: perception of students from the municipal network of Curitiba
+
+-   **Objectives:** Investigate affectivity in physical education classes for students in Curitiba's municipal school network. Objectives included identifying student characteristics, their emotions and feelings, their esteem towards physical education, and correlation with physical activity practices.
+-   **Data:** Data collected on students' demographics, emotions/feelings during physical education classes, self-esteem, and physical activity practices.
+-   **Methodology:** Descriptive analysis, frequency analysis of reported feelings, Factor Analysis on emotions/feelings scale, Mann-Whitney and Kruskal-Wallis tests to relate factors to demographics and physical activity, Survival Analysis to model censored data (task completion), and nonparametric tests for hypothesis testing.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Emotions and feelings of athletes and coaches during basketball training in the school environment
+
+-   **Objectives:** Investigate the emotions and feelings of athletes and coaches during school basketball training.
+-   **Data:** Data from a semi-structured questionnaire with sociodemographic questions and an affective map using Likert-scale responses and feeling frequencies.
+-   **Methodology:** Descriptive statistics, reliability analysis (Cronbach's Alpha) of the emotions and feelings scale, and nonparametric tests (Mann-Whitney, Kruskal-Wallis, Spearman Correlation) to examine relationships between factors and sociodemographic variables.
+:::
+
+# Epidemiology
+
+::: {.callout-note collapse="true" icon="false"}
+## Temporal analysis of the incidence of leishmaniasis in Maranhão between 2007 and 2020 using SARIMA models
+
+-   **Objectives:** Analyze the time series of leishmaniasis incidence rates in Maranhão from 2007 to 2020.
+-   **Data:** Monthly time series data on leishmaniasis incidence rate (cases per 100,000 inhabitants) in Maranhão.
+-   **Methodology:** SARIMA (Seasonal Autoregressive Integrated and Moving-Average) models were estimated using the Box-Jenkins methodology (Identification, Estimation, Diagnosis, and Forecasting).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Spatial-Temporal Distribution of Leishmaniasis in Maranhão between 2007 and 2020
+
+-   **Objectives:** Examine the spatial-temporal pattern of leishmaniasis incidence in Maranhão (2007-2020).
+-   **Data:** Annual data on leishmaniasis cases, population, and geolocation (latitude/longitude) for municipalities in Maranhão.
+-   **Methodology:** Spatial Scan Statistics to detect statistically significant clusters of leishmaniasis incidence. A discrete Poisson model was used within SatScan v.10.1 software.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Spatial and Temporal Distribution of Mortality due to Ischemic Heart Disease in the State of Tocantins
+
+-   **Objectives:** Identify spatial and temporal patterns of ischemic heart disease mortality rates in Tocantins (2008-2017).
+-   **Data:** Ecological study with time-series data from 139 municipalities in Tocantins, grouped into eight health regions. Data obtained from Mortality Information System and Brazilian Institute of Geography and Statistics.
+-   **Methodology:** Exploratory Spatial Data Analysis (local and global Moran index) to test the hypothesis of spatial dependence.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Evaluation of Health Impacts of Hydrological Events in Brazil 2005-2014
+
+-   **Objectives:** Evaluate the relationship between leptospirosis incidence and rainfall in Brazil (2005-2014).
+-   **Data:** Two datasets: 1) annual rainfall and leptospirosis data for Brazilian capitals (excluding Porto Velho); 2) pooled data from capitals with average rainfall, leptospirosis cases, and control variables from the 2010 census.
+-   **Methodology:** Generalized Mixed Models (GMM) with various distribution-link combinations (Poisson-log, Normal-identity, Gamma-log, Binomial Negative-log). Fixed Effects were used, and the choice was justified based on the study's focus.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Spatial analysis of dengue in the municipality of Rio de Janeiro
+
+-   **Objectives:** Evaluate the association between socio-economic/demographic indicators and dengue incidence in Rio de Janeiro (2011-2012).
+-   **Data:** Data on dengue cases in 160 neighborhoods (with lab confirmation) from SINAN database, and socio-economic/demographic data from the 2010 Census.
+-   **Methodology:** The description doesn't mention the specific analysis methods used but emphasizes exploring and quantifying the association between the selected variables. It's plausible that spatial statistical methods like spatial regression models were utilized given the project title and available data.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Evaluation of dengue lethality before and after care interventions and control measures in the 2007-2008 epidemic in the Metropolitan Region of Rio de Janeiro (v.2)
+
+-   **Objectives:** Evaluate the lethality of dengue and the impact of control interventions during the 2007-2008 epidemic in the Rio de Janeiro Metropolitan Region.
+-   **Data:** Ecological time-series data on weekly dengue cases and hospitalizations from January 2001 to December 2011. Data obtained from SINAN, SIM, and DATASUS databases.
+-   **Methodology:** Multiple Linear Regression with a stepwise method to relate dengue lethality to implemented interventions, due to the limitations of the available data.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Evaluation of dengue severity during care interventions and control measures in the 2007-2008 epidemic in the Metropolitan Region of Rio de Janeiro
+
+-   **Objectives:** Evaluate dengue severity and the impact of interventions during the 2007-2008 epidemic in the Rio de Janeiro Metropolitan Region.
+-   **Data:** Ecological time-series data on weekly dengue cases and hospitalizations from January 2003 to December 2011. Data obtained from SINAN, DATASUS, and INMET databases.
+-   **Methodology:** Autoregressive models with distributed lags (ARDL) to model dengue severity with dummies for intervention periods, and structural break tests (Chow, Quandt-Andrews, Bai-Perron, CUMSUM) to assess parameter stability.
+:::
+
+# Finance
+
+::: {.callout-note collapse="true" icon="false"}
+## Corporate social performance and its relationship with financial performance, corporate reputation, and advertising, publicity, and communication in Brazil
+
+-   **Objectives:** Investigate the moderating role of Corporate Reputation (CR), Advertising, Publicity, and Communication (PPC), and the COVID-19 crisis on the relationship between Corporate Social Performance (CSP) and Corporate Financial Performance (CFP).
+-   **Data:** Data from Brazilian companies on their CSP, CFP, CR, PPC, and financial investments during the COVID-19 period.
+-   **Methodology:** Descriptive and bivariate analysis with outlier treatment. Static linear panel data modeling with Generalized Least Squares (GLS) and random effects (RE) were employed due to the limited time variability of DSC and CR. Model diagnostics included Breusch-Pagan test, tests for remaining RE model hypotheses, significance tests (F and Wald), and fit measures (R2 and RMSE). Marginal means and effects were evaluated after model adjustment.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Open Innovation, Circular Economy, and the Environmental and Financial Performance in Brazil
+
+-   **Objectives:** Investigate the link between Open Innovation (OI) and Circular Economy (CE), along with their impact on Environmental Performance (EP) and Financial Performance (FP) in Brazilian companies.
+-   **Data:** Data from Brazilian companies on OI, CE, EP, and FP.
+-   **Methodology:** Mediation analysis and structural equation modeling to examine the relationships between OI, CE, EP, and FP. Path analysis using variance-based SEM (PLS-SEM) and specific procedures for handling formative constructs are suggested methodologies. SmartPLS software suggested for analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Corporate Social Responsibility and Tax Aggressiveness in Emerging Countries
+
+-   **Objectives:** To analyze the relationship between tax aggressiveness (TA) and corporate social responsibility (CSR) in companies from emerging countries. Specifically, to describe the level of TA, analyze the TA-CSR relationship, and identify tax and CSR behavior considering specific characteristics of emerging countries.
+-   **Data:** Data from 152 non-financial companies from 20 emerging countries between 2016 and 2021. Data included company-level and country-level variables.
+-   **Methodology:** Data winsorization and outlier treatment were performed. Panel data models (fixed effects and random effects) were estimated. Model selection was based on Breusch-Pagan, Chow, and Hausman tests. Diagnostics for multicollinearity, heteroscedasticity, and autocorrelation were conducted.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The relationship of companies' tax profile with added value and their distribution to agents
+
+-   **Objectives:** To identify how tax management relates to added value generation and its distribution to employees, creditors, and shareholders.
+-   **Data:** Data from 321 companies between 2010 and 2019, collected from ValorPRO. The database contained missing values.
+-   **Methodology:** Data cleaning, univariate and multivariate outlier treatment were performed. Panel data models (random effects and pooled) were estimated. Model selection was based on the Breusch-Pagan test. Diagnostics for multicollinearity, heteroscedasticity, and autocorrelation were conducted. Generalized Least Squares (GLS) with correction for heteroscedasticity and autocorrelation was used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Tone Used in Tax Accounting Narratives and The Tax Aggressiveness of the Brazilian Companies
+
+-   **Objectives:** To analyze the relationship between the tone of tax accounting narratives and the level of tax aggressiveness of publicly traded Brazilian companies.
+-   **Data:** Economic and financial data from 297 companies listed on B3 from 2016 to 2020. The data matrix was incomplete and contained outliers.
+-   **Methodology:** Winsorization and outlier treatment were performed. Panel data models were estimated, with model selection based on Breusch-Pagan, Chow, and Hausman tests. Diagnostics for heteroscedasticity and first-order autocorrelation were conducted using Wald and Wooldridge tests. Robust standard errors or models corrected for heteroscedasticity and first-order autocorrelation (Durbin-Watson statistic) were used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Financial Flexibility and The Determinants of Capital Structure: An Analysis for Brazilian Companies on B3 between 2005 and 2020
+
+-   **Objectives:** To analyze the impact of financial flexibility on the capital structure of publicly traded Brazilian companies between 2005 and 2020.
+-   **Data:** Economic and financial data from 339 Brazilian companies listed on B3 between 2000 and 2020.
+-   **Methodology:** Panel data methodology with fixed effects, random effects, and pooled models were employed. Model selection was based on Breusch-Pagan, Chow, and Hausman tests. Diagnostics for multicollinearity, heteroscedasticity, and autocorrelation were conducted.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Overconfidence in tax aggressiveness in Brazilian publicly traded companies
+
+-   **Objectives:** To evaluate whether the overconfidence personality trait influences tax aggressiveness in publicly traded Brazilian companies.
+-   **Data:** 2,216 observations from 277 companies between 2010 and 2017. Data included measures of overconfidence, tax aggressiveness, and control variables.
+-   **Methodology:** Descriptive and Bivariate Analysis, outlier treatment. Panel data methodology was used, with model selection based on Breusch-Pagan, Chow, and Hausman tests. Models with robust standard errors or Prais-Winsten estimator were used to address heteroscedasticity and first-order autocorrelation.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Efficiency of Real Estate Securities Analysts' Forecasts
+
+-   **Objectives:** To analyze the relationship between the forecast of financial analysts covering Brazilian banks and tax information.
+-   **Data:** Data from 1,068 observations from 89 financial institutions between 2006 and 2017. The dataset was incomplete.
+-   **Methodology:** Panel data methodology with fixed or pooled effects was used. Models were developed to relate analyst forecasts to tax information, controlled by factors such as tax smoothing, size, growth, firm results, and analyst performance.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Analysis of the relationship between contingency factors and executive compensation
+
+-   **Objectives:** To evaluate the relationship between contingency factors and executive compensation.
+-   **Data:** Data from approximately 200 observations collected through telephone interviews. Data included measures of contingency factors, executive compensation, and control variables.
+-   **Methodology:** Descriptive analysis and non-parametric tests were used to examine bivariate relationships. Structural Equation Modeling (SEM) or Generalized Structural Equation Modeling (GSEM) were proposed to address potential interdependencies and measurement errors.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The Perception of the Effects of (In) Formalization of Strategic Planning on Controller Practices
+
+-   **Objectives:** To investigate the opinions of CEOs, CFOs, and controllers regarding the influence of contingency variables (strategy, structure, and size) on the formalization of strategic planning.
+-   **Data:** Data collected through a questionnaire applied to CEOs, CFOs, and controllers. Data included information on company size, billing, strategy, and structure.
+-   **Methodology:** Descriptive analysis, Exploratory Factor Analysis (EFA), nonparametric tests (Spearman correlation, Mann-Whitney test, Kruskal-Wallis test), and stepwise Multiple Linear Regression were employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Influence of the comparability of financial statements on accuracy in the forecast of market analysts and on the information of profits disclosed by companies
+
+-   **Objectives:** To evaluate the influence of the comparability of financial statements on the accuracy of market analyst forecasts and the information content of profits disclosed by companies.
+-   **Data:** Data from 37 companies from 2005 to 2015, covering pre-IFRS adoption, the transition period, and post-IFRS adoption. Data sources included Thomson ONE Analytics System and Economática®.
+-   **Methodology:** Panel data methodology with pooled, random effects, and fixed effects models was employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Interrelationship of Behavioral Finance Trends in the Brazilian Reality
+
+-   **Objectives:** To analyze the interrelationships among various behavioral finance constructs in the Brazilian context.
+-   **Data:** Data from approximately 3,000 individuals, including measures of overconfidence, optimism, anchoring, framing, illusion of control, availability, affect, conjunction fallacy, representativeness, and loss aversion. The dataset contained missing values.
+-   **Methodology:** Exploratory Factor Analysis (EFA), Confirmatory Factor Analysis (CFA), reliability and validity assessment, and Structural Equation Modeling (SEM) were used to examine the interrelationships and test for measurement invariance across gender.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Tax avoidance and social responsibility
+
+-   **Objectives:** Evaluate the association between tax avoidance and social responsibility practices.
+-   **Data:** Data from BM&FBOVESPA-listed companies, both those participating and not participating in the Corporate Sustainability Index (ISE), from 2009-2013. Unbalanced panel data was used.
+-   **Methodology:** Cluster analysis to classify companies based on tax avoidance and social responsibility.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Relationship between The Socio-Environmental Investments and the Economic-Financial Performance of the Companies Listed on the B3 in the Steelworks and Metallurgy Sector
+
+-   **Objectives:** Analyze the relationship between socio-environmental investments and financial indicators (LPA, VPA, Sales/Action, ROA, RPL, ROIC) for B3-listed companies in the steelworks and metallurgy sector.
+-   **Data:** Panel data from 2010-2014 on Brazilian companies' financial performance and socio-environmental investments (ISI, ISE, and IA).
+-   **Methodology:** Descriptive statistics, principal component analysis to reduce the dimensionality of financial indicators, Spearman's rank correlation, and Kendall's partial rank correlation, followed by statistical significance and clinical relevance reporting using p-values and effect size measures.
+:::
+
+# Health
+
+::: {.callout-note collapse="true" icon="false"}
+## Analysis of the drug acquisition profile
+
+-   **Objectives:** To evaluate the contribution of an adherence program for hypertension, diabetes, and dyslipidemia treatment regarding medication use and acquisition. The program provided guidance on drug usage, analyzed interactions between prescribed medications, and facilitated timely drug replacements. The study compared individuals enrolled in the program with a control group to assess differences in medication acquisition patterns.
+-   **Data:** Data from two groups: individuals participating in the adherence program and a control group. Data included medication acquisition records and information on prescribed drugs.
+-   **Methodology:** Non-parametric tests were employed for analysis, including the Mann-Whitney U test, Tarone and Breslow-Day homogeneity test, Cochran and Mantel-Haenszel conditional independence test, Spearman correlation, and Chi-square test.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Swallowing in the Elderly with Alzheimer's
+
+-   **Objectives:** Assess swallowing in individuals with stage 3/4 Alzheimer's Disease using the PARD (Protocol for Risk Assessment for Dysphagia). Specifically, to describe the frequency of each PARD item, test for differences, and identify the items most related to dysphagia classification.
+-   **Data:** Data from 59 individuals with stage 3/4 Alzheimer's Disease who responded to the PARD items, including patient age information.
+-   **Methodology:** Descriptive statistics, Chi-square test to compare item frequencies, Mann-Whitney test to compare dysphagia degrees, and multiple linear regression (stepwise method) with dysphagia degree as the dependent variable and significant PARD items as independent variables, using SPSS v.27.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Validation of the Document "The Essential Functions of Public Health in the Americas" for Brazilian Managers"
+
+-   **Objectives:** Validate the "Essential Functions of Public Health in the Americas" document for Brazilian managers by assessing its content, semantics, and appearance.
+-   **Data:** Data collected from public health management professionals using a focus group and a pilot study with health managers via the Lattes platform.
+-   **Methodology:** Focus group discussions, pilot testing, exploratory factor analysis, and confirmatory factor analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Laboratory Tests and Liver Biopsy
+
+-   **Objectives:** Compare liver laboratory test results to liver biopsy findings.
+-   **Data:** Ten observations of liver laboratory tests and liver biopsy results from the same individuals.
+-   **Methodology:** Descriptive statistics and Spearman's Correlation Coefficient with confidence intervals (CI) due to the ordinal nature of the variables and the small sample size. Analysis performed in SPSS v.27.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Body pain and voice disorders self-reported by teleoperators: interdisciplinary perspectives
+
+-   **Objectives:** Characterize body pain in emergency teleoperators, examine the relationship between vocal complaints and body pain, and compare military and non-military participants.
+-   **Data:** Data from 71 emergency teleoperators, including military (police, firefighters) and non-military personnel.
+-   **Methodology:** Descriptive statistics, Mann-Whitney test (Z), Fisher's Exact test (x2), and Spearman's correlation (p) were used due to the small sample size and predominantly ordinal data. Non-parametric approach adopted due to the characteristics of the data and sample size.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Bilateral Carpal Tunnel Syndrome
+
+-   **Objectives:** (Not explicitly stated but inferable) Evaluate changes in multiple outcomes related to bilateral carpal tunnel syndrome over time and across different treatment groups.
+-   **Data:** Data collected over four years on individuals with Bilateral Carpal Tunnel Syndrome, with multiple data points across the study period. Variables included various outcome measures and demographic/clinical information.
+-   **Methodology:** Descriptive and bivariate analyses, including ANOVA crossover analysis. Generalized Estimating Equations (GEE) and Generalized Mixed Models (GMM) used for multivariate analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Bodybuilding and the quality of life of practitioners
+
+-   **Objectives:** Examine the quality of life in individuals practicing bodybuilding compared to sedentary individuals.
+-   **Data:** WHOQOL-Bref questionnaire data from 20 individuals, 10 bodybuilding practitioners and 10 sedentary controls.
+-   **Methodology:** Descriptive analysis and Mann-Whitney U test to compare quality of life scores between the two groups.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Social Fragility Assessment Scale (HALFT)
+
+-   **Objectives:** Evaluate the psychometric properties of the HALFT scale in the context of cross-cultural adaptation.
+-   **Data:** Data on the HALFT scale responses, using a binary response format.
+-   **Methodology:** Exploratory Factor Analysis (EFA) with a polychoric matrix and Robust Diagonally Weighted Least Squares (RDWLS) estimation. Optimized Parallel Analysis for dimensionality assessment. Confirmatory Factor Analysis (CFA) and Item Response Theory (IRT) were also used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Risk factors associated with deaths from COVID-19
+
+-   **Objectives:** Evaluate risk factors associated with death from COVID-19.
+-   **Data:** Retrospective data from patient medical records including demographics, medical history, diagnosis, symptoms, lab results, ventilation used, and clinical complications.
+-   **Methodology:** Calculation of odds ratios and confidence intervals due to the dichotomous nature of the variables, including the outcome. Specific statistical techniques for hypothesis testing were not specified but likely involve methods like logistic regression suitable for binary outcomes.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Etiology, forms of presentation and complications of Cirrhosis
+
+-   **Objectives:** Describe and correlate the etiology, forms of presentation, and complications of cirrhosis with patient age and other profile variables.
+-   **Data:** Data from patients diagnosed with cirrhosis, including age, etiology, forms of presentation, complications.
+-   **Methodology:** Point-biserial correlation, Kruskal-Wallis test, Cramér's V, Fi coefficient for bivariate analysis. P-value \< .05 used for statistical significance, and bootstrapping (n=1000, BCa CI) used for confidence intervals. Common factor analysis and backward logistic regression were used for multivariate analyses.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Physical and social frailty of patients undergoing hemolytic treatment and kidney transplantation
+
+-   **Objectives:** Evaluate and compare social and physical frailty in patients undergoing hemodialysis and kidney transplantation.
+-   **Data:** Data from 80 hemodialysis patients and 204 kidney transplant patients. Instruments used: Halft Social Frailty Assessment Scale, Tilburg Frailty Indicator (physical domain), Patient Health Questionnaire (PHQ-9), and Social Support Scale of the Medical Outcomes Study (MOS). Sociodemographic and health data also collected.
+-   **Methodology:** Exploratory and confirmatory factor analysis (EFA and CFA) for the HALFT scale. Reliability analysis using Cronbach's Alpha for all scales. Three multiple linear regression models were run.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Prospective Study of Safety and Short-Term Effects of Viscosupplementation in Patellar Chondropathy
+
+-   **Objectives:** Evaluate the short-term effects of viscosupplementation on patellar chondropathy, compare treatment regimens (1, 3, or 5 injections), and assess the influence of various factors (e.g., age, gender, BMI) on treatment outcomes.
+-   **Data:** Data collected at four timepoints (baseline, 3, 6, and 12 months) on patients receiving hyaluronic acid (HA) injections for patellar chondropathy. Outcome measures included Womac, Kujala, and EVA scales.
+-   **Methodology:** Descriptive analysis, Friedman test with Bonferroni correction for comparison of treatment effects over time. ANCOVA used to account for baseline covariates. T-test for paired samples and MANCOVA for comparison of outcomes across treatment groups.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Endosonography and cytological finding
+
+-   **Objectives:** Describe the data and identify relationships between endosonography findings and cytological results.
+-   **Data:** Data from endosonography and cytological tests, including various variables (some qualitative) with missing values and conditional/multiple responses.
+-   **Methodology:** Descriptive analysis, Word Cloud for open-ended responses, and inferential statistics were challenging due to the data's complexity.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Study of the use of the technique of Osseo integrable dental implants
+
+-   **Objectives:** Evaluate factors related to the use of osseointegrated dental implants in dental practice.
+-   **Data:** Data collected from dental professionals on their specialization, use of osseointegrated dental implants, and related practices.
+-   **Methodology:** Fisher's Chi-square or Exact Test to analyze relationships between nominal variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Study of the frequency and sensory phenotypic profile of neuropathic pain among patients with leprosy-associated painful syndrome
+
+-   **Objectives:** Determine the frequency and sensory profile of neuropathic pain in patients with leprosy-associated painful syndrome.
+-   **Data:** Clinical evaluation data from patients at a reference service in Central Brazil.
+-   **Methodology:** Descriptive analysis using tables, frequencies, descriptive statistics, bar charts, and histograms.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Domestic violence against women and quality of life
+
+-   **Objectives:** Develop a predictive model for domestic violence against women.
+-   **Data:** Data on sociodemographics, quality of life (WHOQOL), feeling of security, and domestic violence.
+-   **Methodology:** Neural Networks using Radial Base Function, variable selection, and model validation using training, test, and validation partitions.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Measurements of anterior cruciate ligament insertion of the knee and its relations between sex, weight and height
+
+-   **Objectives:** Evaluate the relationship between sex, weight, height, and dimensions (length, width, area) of the anterior cruciate ligament (ACL) in the elderly.
+-   **Data:** Data on ACL dimensions, sex, weight, and height in elderly individuals.
+-   **Methodology:** One-factor MANOVA (sex) with two covariates (height and weight), bootstrap confidence intervals, and multiple comparisons using Bonferroni adjustment.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Retrogenesis theory: psychomotor, cognitive changes and the risk of falls in healthy elderly with a diagnosis of probable Alzheimer's disease
+
+-   **Objectives:** Evaluate the relationship between psychomotor and cognitive function, and the risk of falls, in elderly individuals with probable Alzheimer's disease.
+-   **Data:** Data from healthy elderly individuals diagnosed with probable Alzheimer's, measuring motor function, cognitive function, and risk of falls.
+-   **Methodology:** Descriptive and bivariate analysis followed by multiple regression analysis with bootstrap resampling.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Study to identify the main needs of people with Autism Spectrum Disorders in Brazil
+
+-   **Objectives:** Identify the main needs of individuals with Autism Spectrum Disorder (ASD) in Brazil.
+-   **Data:** Questionnaire data collected from individuals with ASD, including information on various needs across multiple domains (e.g., education, healthcare, social support). The original data was in Excel format and needed to be cleaned and organized.
+-   **Methodology:** Descriptive analysis, possibly followed by inferential analyses appropriate for questionnaire data once the data was cleaned and structured in SPSS.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The influence of nanquim marker on the identification of lymph nodes in patients with operated rectal cancer
+
+-   **Objectives:** Evaluate whether marking with nanquim improves lymph node identification during rectal cancer surgery.
+-   **Data:** Data from 20 individuals undergoing rectal cancer surgery, half marked with nanquim and half not marked. Number of lymph nodes evaluated and potential confounders were recorded.
+-   **Methodology:** Descriptive analysis, Mann-Whitney tests, Spearman correlation, Chi-square test, and regression analysis with Monte Carlo simulation and Bootstrap resampling.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Validation of SERVQUAL in the health context
+
+-   **Objectives:** Validate the SERVQUAL scale (measuring service quality) in the healthcare context.
+-   **Data:** Data from a 22-item SERVQUAL questionnaire measuring customer expectations and perceptions across five dimensions (tangibility, reliability, responsiveness, assurance, empathy) in healthcare settings.
+-   **Methodology:** Standard scale validation procedures, including translation/retranslation, evaluation by professionals, and statistical analyses such as Exploratory and Confirmatory Factor Analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Prognosis of left ventricular function in coronary artery disease in patients with and without diabetes
+
+-   **Objectives:** Evaluate the relationship between various risk factors and outcomes (death, myocardial infarction, stroke) in coronary artery disease patients with and without diabetes.
+-   **Data:** Patient data, including diagnosis, risk factors (age, sex, smoking status, etc.), and disease outcomes.
+-   **Methodology:** Survival analysis (Kaplan-Meier, Cox Regression) to evaluate the time to event and Chi-square/ANOVA for bivariate analyses. Bootstrapping used for inferential calculations.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Organizational Culture Assessment Instrument, Quality Improvement Implementation II, Preparation of Health Services for Accreditation
+
+-   **Objectives:** Validate three scales related to total quality management: Organizational Culture Assessment Instrument, Quality Improvement Implementation II, and Preparation of Health Services for Accreditation.
+-   **Data:** Data collected from about 600 healthcare professionals working in seven accredited hospitals. Scales were English translations and had undergone face and content validation.
+-   **Methodology:** Exploratory and Confirmatory Factor Analyses (EFA and CFA). Mann-Whitney U test to compare responses across samples from different rounds of data collection. Spearman correlation and Kendall's W for inter-rater agreement. Cronbach's Alpha for internal consistency.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The efficacy of demarcation of surgical margins through dermoscopy in head and neck basal cell carcinoma: a retrospective study
+
+-   **Objectives:** Compare the efficacy of dermoscopy and clinical examination in predicting free histological margins in basal cell carcinoma and examine relationships between demarcation methods and histological margins.
+-   **Data:** Data from patients with basal cell carcinoma, including clinical and dermoscopic demarcations, histological margin status, and demographic/clinical data.
+-   **Methodology:** Chi-square/Fisher's exact test and Mann-Whitney test for bivariate analysis, Logistic Regression to evaluate the influence of explanatory variables on free histological margins.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Assessment of the impact of daily leucine supplementation of 10g in healthy young people undergoing a strength training program
+
+-   **Objectives:** Assess the impact of daily leucine supplementation on strength and muscle mass gain in young adults undergoing strength training.
+-   **Data:** Data collected before and after intervention on participants in leucine and placebo groups. Variables included maximum petition, strength, resistance, ultrasound measurements, nutritional/protein intake, and other outcomes.
+-   **Methodology:** T-test, ANCOVA, and MANCOVA were used to compare changes within and between groups. Descriptive analysis was also performed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Essential competencies of managers for public health
+
+-   **Objectives:** Translate and adapt the "Regional Framework of Essential Competencies in Public Health" document for Brazilian health managers, develop and validate an instrument to map these competencies.
+-   **Data:** Data from two samples: 130 individuals (first round) and 36 health professionals (pre-test). The study used questionnaire data related to essential competencies in public health.
+-   **Methodology:** Mann-Whitney U test to compare responses between samples. Spearman correlation and Kendall's W for assessing internal consistency among judges. Cronbach's Alpha to evaluate internal consistency of the questionnaire.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The Use of the Apache II Score as a Predictor of Early Readmissions in the ICU of the Antônio Dias Regional Hospital
+
+-   **Objectives:** Analyze early readmission rates in the ICU and their relationship with the APACHE II score, and patient outcomes.
+-   **Data:** Data collected from patient notes and medical records on readmissions within 72 hours, readmissions after 72 hours, and non-readmissions. Variables included APACHE II score, age, gender, admission cause, and outcome. Data collected from January 2014 to January 2016.
+-   **Methodology:** Descriptive Analysis and bivariate analysis (chi-square and Kruskal-Wallis tests). Mann-Whitney U test was used to adjust for potential confounders.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Individual factors and the context of the basic health unit associated with the cure of pulmonary tuberculosis in Brazil
+
+-   **Objectives:** Evaluate individual and contextual factors associated with pulmonary tuberculosis cure rates in Brazil.
+-   **Data:** Secondary data from Sinan, PMAQ-AB, and DAB databases. Included new pulmonary TB cases classified as "cure" or "non-cure," in UBSs participating in the 2nd PMAQ-AB cycle (2013-2014).
+-   **Methodology:** Hierarchical model with three levels (individual, UBS, municipality).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Evaluation of hyperbaric oxygen therapy in the evolution of the healing process in animals submitted to portoenterostomy using synthetic prosthesis: experimental study
+
+-   **Objectives:** Evaluate the effect of hyperbaric oxygen therapy on healing in animals after portoenterostomy with a synthetic prosthesis.
+-   **Data:** Data from 24 rats randomized into two groups (control and treatment), with treatment group further divided into two subgroups based on treatment duration (3 or 5 days).
+-   **Methodology:** Descriptive analysis, Kruskal-Wallis, Mann-Whitney, and Chi-Square tests for bivariate analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Association between fatigue and the concentration of inflammatory biomarkers and altered respiratory function in patients with multiple sclerosis
+
+-   **Objectives:** Evaluate the association between fatigue, inflammatory biomarkers, and respiratory function in multiple sclerosis (MS) patients with low functional disability.
+-   **Data:** Case-control study with 40 MS patients and 40 matched healthy controls. Data collected on fatigue (FSS and MFIS scales), respiratory parameters, body mass index, comorbidities, medication use, smoking history, and physical activity.
+-   **Methodology:** Chi-square test, Cronbach's Alpha for scale reliability, Mann-Whitney test for comparison of respiratory parameters, and logistic regression with random effects to model fatigue based on biomarkers and respiratory parameters.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## The treatment of Primary Health Care to the Diabetes Mellitus Guidelines
+
+-   **Objectives:** Evaluate primary healthcare (PHC) adherence to diabetes mellitus (DM) guidelines in a Brazilian municipality. This included characterizing patient profiles, comparing provided procedures to guideline recommendations, and analyzing medication usage among diabetic and hypertensive patients.
+-   **Data:** Data on diabetic patients from the municipality's PHC records, covering demographic information, medical history, medications, clinical measurements, and laboratory test results.
+-   **Methodology:** Descriptive analysis and univariate analysis (binomial test, Chi-Square) comparing observed data to guideline recommendations. Logistic regression with random effects employed for multivariate analysis.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Effects of Prostate Cancer Treatment Types on Quality of Life During Disease Treatment
+
+-   **Objectives:** Evaluate the health-related quality of life in patients undergoing prostate cancer treatment.
+-   **Data:** Data from approximately 200 prostate cancer patients. Two instruments used: 1) closed questions on sociodemographic and clinical characteristics, and 2) the Expanded Prostate Cancer Index Composite (EPIC) questionnaire (validated and translated into Portuguese).
+-   **Methodology:** Reliability analysis of EPIC using Cronbach's Alpha. Descriptive Analysis and bivariate analyses were conducted using Mann-Whitney, Kruskal-Wallis, and Chi-square tests to explore relationships between treatment types, quality of life, and sociodemographic/clinical factors. ANOVA with bootstrap estimation also used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Education and Quality of Life: Association with Cognition, Schooling and Physical Activity in a Sample of old Women from Ponta Grossa-PR
+
+-   **Objectives:** Investigate the association of cognition, schooling, and physical activity with quality of life in older women.
+-   **Data:** Data from \~500 older women in Ponta Grossa, PR. Questionnaires used: sociodemographic form, International Physical Activity Questionnaire (IPAQ), WHOQOL-BREF and WHOQOL-OLD questionnaires, and Mini-Mental State Examination (MMSE).
+-   **Methodology:** Reliability analysis using Cronbach's Alpha, followed by two MANOVAs with quality of life as the dependent variables, cognition and physical activity as factors, and schooling as a covariate.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Profile of Child Mortality and its Subperiods in the Annapolis City: An Analysis of Avoid ability in the Investigation of Death in the period from 2012 to 2014
+
+-   **Objectives:** Evaluate the profile of child mortality in Annapolis City (2012-2014) and its classification based on avoidable death criteria.
+-   **Data:** Data on child deaths (fetal, neonatal, post-neonatal periods) classified as preventable or non-preventable, along with information about possible intervening factors.
+-   **Methodology:** Descriptive statistics and bivariate tests (Mann-Whitney, Chi-square, Mantel-Haenszel test of odds ratios independence) were used for analysis. Multivariate analysis was not possible due to missing data.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Let the patient tell his story
+
+-   **Objectives:** Evaluate the duration of spontaneous speech during medical consultations.
+-   **Data:** Data from patients in a public network, including age, speech time, location, sex, education, and income.
+-   **Methodology:** Descriptive analysis, non-parametric tests (Mann-Whitney, Kruskal-Wallis), multiple linear regression. CHAID method used to combine categories for schooling and income variables.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Stigma affiliated among mothers of children with autism spectrum disorder
+
+-   **Objectives:** Describe the profile of affiliated stigma in mothers of children with Autism Spectrum Disorder (ASD) and the severity of ASD symptoms in São Paulo.
+-   **Data:** Data collected using the Affiliate Stigma Scale (ASS) and Autism Behavior Checklist (ABC) screening.
+-   **Methodology:** Kendall's coefficient of agreement to evaluate content of ASS scale. Principal Component Analysis (PCA), Cronbach's Alpha for reliability, and bivariate analyses using nonparametric tests (Spearman correlation, Mann-Whitney, Kruskal-Wallis).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Use of anxiety medication without medical diagnosis in urban emergency professionals
+
+-   **Objectives:** Explain the factors associated with self-medication for anxiety among firefighters and paramedics.
+-   **Data:** Data on sociodemographics, household activities, life habits, work conditions, psychosocial characteristics, exposure to stressful events, morbidity, and general health information.
+-   **Methodology:** Multivariate logistic regression with manual backward selection to identify the most influential factors associated with self-medication for anxiety.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Usual and atypical work shifts: differences in quality of life
+
+-   **Objectives:** Evaluate differences in quality of life between workers in regular and atypical work shifts.
+-   **Data:** WHOQOL-bref questionnaire data from 200 workers (100 regular shift, 100 atypical shift).
+-   **Methodology:** Descriptive analysis, Student's t-test for independent samples to compare WHOQOL scores between groups.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Survival analysis of patients who developed acute kidney injury after cardiac surgery
+
+-   **Objectives:** Analyze the survival of patients who developed acute kidney injury after cardiac surgery and identify related risk factors.
+-   **Data:** Data from patients who underwent cardiac surgery, including demographics, clinical variables, and occurrence of acute kidney injury.
+-   **Methodology:** Descriptive, bivariate, and multivariate analysis (logistic regression) followed by survival analysis (Kaplan-Meier, Cox Regression).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Method for anatomical identification of the lateral surface of the brain with isotropic volumetric images by magnetic resonance imaging
+
+-   **Objectives:** Evaluate a method for identifying the lateral surface of the brain using MRI images.
+-   **Data:** MRI images evaluated by three judges.
+-   **Methodology:** Kappa statistics to assess inter-rater reliability and graphical methods and tables to summarize the results. Comparisons were made between groups based on MRI analysis type (T1 IR GRE vs T1 GRE), hemisphere, and reference group.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Nursing Student's Attitudes Toward Mental Health Nursing and Consumers
+
+-   **Objectives:** Validate the Mental Health Nursing and Consumers (MHNE2) scale, evaluating nursing students' attitudes towards mental health and their professional performance.
+-   **Data:** Questionnaire data on nursing students' attitudes towards mental health.
+-   **Methodology:** Exploratory Factor Analysis (EFA), Confirmatory Factor Analysis (CFA) to validate the MHNE2 scale.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Psychopathology and Violent Behavior in Schizophrenia: Instrumental Clinical Assessment Methods
+
+-   **Objectives:** Evaluate the sociodemographic and clinical profile of patients with paranoid schizophrenia and history of violence and factors associated with violent behavior. Also validate and test the predictive capacity of tools such as the HCR-20 and MOAS scale.
+-   **Data:** Data from patients with paranoid schizophrenia and history of violence, including sociodemographic and clinical variables. HCR-20 and MOAS scales were used to assess violence risk.
+-   **Methodology:** Cronbach's Alpha for scale reliability. ROC analysis of HCR-20. Correlation analysis between HCR-20 and MOAS, and between MOAS and violent behavior. Bivariate analysis (Spearman correlation and Mann-Whitney U Test).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Drug response analysis of UERJ patients with missing clinical data
+
+-   **Objectives:** Analyze drug response of UERJ patients considering missing data.
+-   **Data:** Clinical data from an Access database with samples from 1325 patients who submitted samples for diagnosis, BRC-ABL fusion gene testing or molecular analysis of response to treatment.
+-   **Methodology:** Nonparametric tests: Wilcoxon test for paired samples, Mann-Whitney test for independent samples, Spearman correlation for bivariate analysis. The methodology used is appropriate due to the small sample size and ordinal/nominal variables
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Record of moderate and severe unintentional external injuries in Florianopolis city, in hospitalized minors up to 14 years of age, in 2013
+
+-   **Objectives:** Describe sociodemographic characteristics, injuries and in-hospital evolution of minors hospitalized due to unintentional injuries in Florianopolis city.
+-   **Data:** Data on hospitalized minors up to 14 years old with unintentional injuries.
+-   **Methodology:** Descriptive analysis, bivariate analyses (crosstabs and hypothesis tests) and logistic regression.
+:::
+
+# Psychology
+
+::: {.callout-note collapse="true" icon="false"}
+## Cross-cultural adaptation of instruments for the evaluation of bipolar spectrum disorders - (hypo)mania - in children and adolescents
+
+-   **Objectives:** Review the use of quantitative techniques for cross-cultural adaptation of three (hypo)mania evaluation measures in children/adolescents: CMRS-P, P-YMRS, PGBI-10.
+-   **Data:** Data from children and adolescents diagnosed with (hypo)mania or related disorders, related to the validated measures CMRS-P, P-YMRS, PGBI-10.
+-   **Methodology:** Exploratory and Confirmatory Factor Analyses (EFA and CFA), internal consistency and reliability analysis, analysis of convergent and concurrent validity, analysis of reduced versions of the instruments, multigroup CFA, and item response theory (IRT).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Does your personality explain your lie's intention? A study on personality, lie and mediation of Planned Behavior Theory
+
+-   **Objectives:** Investigate the relationship between personality and intention to lie (prosocial and antisocial).
+-   **Data:** Data on personality (Five Factor Model - FFM using BFI-20 scale), lying behavior, and Planned Behavior Theory (PBT) constructs from 658 individuals.
+-   **Methodology:** Partial Least Squares Structural Equation Modeling (PLS-SEM) due to model complexity and sample size. Analysis included outlier and missing value handling, assessment of measurement model validity and reliability, and evaluation of structural model relationships. SmartPLS 3.3 software used.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Direct and indirect effects of Personality on The Intent to Lie
+
+-   **Objectives:** Investigate the direct and indirect effects of personality on the intent to lie, building upon a previous study with an updated sample and more complex structural model.
+-   **Data:** Data from 1269 individuals on personality, lying behavior, and planned behavior theory constructs.
+-   **Methodology:** Structural Equation Modeling (SEM) using variance-based PLS-SEM. Higher-order constructs were modeled using the repeated indicators approach. Model B for formative constructs and Model A for the personality scale (reflective construct) were employed.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Retirement awareness and planning
+
+-   **Objectives:** Analyze the influences of retirement planning, considering factors like financial literacy, control, attitude, anxiety, physical health, and mental health.
+-   **Data:** Longitudinal data collected at five time points from individuals in Australia, covering various aspects of retirement planning and related factors.
+-   **Methodology:** Structural Equation Modeling (SEM), with a focus on mediation models and panel data analysis (latent growth model, cross-lagged model).
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Working memory and literacy of children and adolescents at risk for neurodevelopmental disorders
+
+-   **Objectives:** Investigate the relationship between working memory and literacy in children and adolescents at risk for neurodevelopmental disorders, and mediating effects of age.
+-   **Data:** Data from the WISC (Wechsler Intelligence Scale for Children) on working memory, and a custom literacy protocol. Data included raw scores from the WISC. The SNL subtest was not used due to missing data.
+-   **Methodology:** Item Response Theory (IRT) using the Partial Credits Model (MCP) to analyze the literacy protocol data. Multiple Linear Regression (MLR) used to test research hypotheses.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Expectation of duration of affective relationships in Brazilian university students
+
+-   **Objectives:** Evaluate the impact of personal characteristics on relationship duration expectations in Brazilian university students.
+-   **Data:** Data from a questionnaire including Sociosexual Orientation Inventory (SOIR), Rosenberg Self-Esteem Scale, Clinical Inventory of Self-Concept (AUT), Time Perception Scale of Romantic Relationships (PTRA), and demographics (age, gender, sexual orientation, marital status, social class).
+-   **Methodology:** Descriptive statistics, reliability analysis (Cronbach's Alpha), t-tests, ANOVA, Spearman correlation for bivariate analyses, and Multiple Linear Regression (MLR) with stepwise forward selection.
+:::
+
+::: {.callout-note collapse="true" icon="false"}
+## Identification of frailty in the third age in triple-border regions: strategy to promote active aging
+
+-   **Objectives:** Construct multivariate models to explain frailty/vulnerability in the elderly.
+-   **Data used:** Data from \~550 individuals in Foz do Iguaçu on frailty/vulnerability indicators (ordinal with three levels).
+-   **Methodology employed:** Two ordinal logistic models (ordered logit) to analyze independent variables' effects, model evaluation via parallel line tests, heteroscedasticity test, link test, model comparison (AIC, BIC), Hosmer-Lemeshow test, and stepwise variable selection methods.
+:::

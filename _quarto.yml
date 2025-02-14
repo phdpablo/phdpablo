@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: img/psicoeconometria.png
+  navbar:
+    collapse-level: 1
+    background: primary
+    tools:
+      - icon: github
+        href: https://github.com/phdpablo
+      - icon: linkedin
+        href: https://www.linkedin.com/in/phdpablo/
+      - icon: youtube
+        href: https://www.youtube.com/c/PsicoEconoMETRIA
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - cv.qmd
+      - portfolio.qmd
+      - papers.qmd
+      - href: psico.qmd
+        text: Psico&Econo_METRIA
+  
+  sidebar:
+    background: primary
+    style: "docked"
+    contents:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - cv.qmd
+      - portfolio.qmd
+      - papers.qmd
+      - href: psico.qmd
+        text: Psico&Econo_METRIA
+      
+  page-footer: 
+    left: <a href="https://phdpablo.github.io/phdpablo/">by Pablo Rogers</a> 
+    right: This website was built with 💓 and <a href="https://quarto.org/">Quarto</a> 
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+
