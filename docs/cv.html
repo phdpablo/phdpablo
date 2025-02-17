@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -69,6 +103,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
 
 
 <link rel="stylesheet" href="styles.css">
@@ -100,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./portfolio.html"> 
-<span class="menu-text">Portfolio</span></a>
+<span class="menu-text">My Portfolio</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
@@ -158,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./portfolio.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Portfolio</span></a>
+ <span class="menu-text">My Portfolio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -183,7 +231,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#my-skills" id="toc-my-skills" class="nav-link active" data-scroll-target="#my-skills">My Skills</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link active" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#education-and-experience" id="toc-education-and-experience" class="nav-link" data-scroll-target="#education-and-experience">Education and Experience</a></li>
   </ul>
 </nav>
     </div>
@@ -209,12 +258,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I was “trained” in the culture of data modeling. I don’t think it could have been any other way, because the concept was to be a financial researcher from a young age, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables.</p>
-<p>So, over the last two decades, I’ve evaluated hundreds (yes, hundreds of articles and consulting reports!) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.</p>
-<p>The Econometrics discipline was my foundation for the first 15 years; however, in the last seven years, I have focused on the Psychometrics discipline, due to a high demand to work with latent variables and validate measurement instruments, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I’ve always worked with health experts during this time, so I’m comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.</p>
-<p>However, in recent years, especially after 2020, I have focused my efforts on algorithmic modeling culture in order to work with massive databases and focus on prediction. As a result, I have worked to improve my understanding of the following machine learning techniques: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations.</p>
-<p>In this context, I have attempted to study the most popular Data Science tools, including SQL, R, Python (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), PowerBi, and Tableau. I’ve used RStudio and Jupyter as IDEs within the Anaconda environment. But isn’t that the least of this information? As I frequently emphasize, tools are ephemeral!</p>
+<p>I was “trained” in the <strong>culture of data modeling</strong>. I don’t think it could have been any other way, because the concept was to be a <strong>financial researcher from a young age</strong>, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables.</p>
+<p>So, over the last two decades, I’ve evaluated hundreds (yes, <strong>hundreds of articles and consulting reports!</strong>) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.</p>
+<p>The <strong>Econometrics</strong> discipline was my foundation for the first 15 years; however, in the last seven years, I have focused on the <strong>Psychometrics</strong> discipline, due to a high demand to work with <strong>latent variables and validate measurement instruments</strong>, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I’ve always worked with health experts during this time, so I’m comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.</p>
+<p>However, in recent years, especially after 2020, I have focused my efforts on <strong>algorithmic modeling culture</strong> in order to work with massive databases and <strong>focus on prediction</strong>. As a result, I have worked to improve my understanding of the following <strong>machine learning techniques</strong>: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations.</p>
+<p>In this context, I have attempted to study the most popular <strong>Data Science tools</strong>, including <strong>SQL, R, Python</strong> (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), <strong>PowerBi, and Tableau</strong>. I’ve used RStudio and Jupyter as IDEs within the Anaconda environment. But isn’t that the least of this information? As I frequently emphasize, tools are ephemeral!</p>
 <p>I frequently tell this story… I spent five years using proprietary structural equation modeling software that no longer works for me. I performed a lot of research and decided on a free one that would initially fit me. It took me an afternoon to master this new software: I knew what all the small buttons (choices) I had to hit (take). First and foremost, comprehend the techniques!</p>
+<p>Below I present a brief summary of my skills, educational background and experience. You can find my full (almost 😁) CV here.</p>
+
 <style>
 /* Estilos para a seção de habilidades */
 .container {
@@ -258,51 +309,51 @@ h2 {
     font-weight: bold;
 }
 </style>
-<section id="my-skills" class="level1">
-<h1>My Skills</h1>
+<section id="skills" class="level1">
+<h1>Skills</h1>
 <div class="container">
 <div class="column">
-<h2 class="anchored" data-anchor-id="my-skills">
+<h2 class="anchored" data-anchor-id="skills">
 Domain Knowledge
 </h2>
 <div class="skill">
-Finance
+<p>Finance</p>
 </div>
 <div class="bar">
 <div style="width: 95%;">
-95%
+<p>95%</p>
 </div>
 </div>
 <div class="skill">
-Project Management
+<p>Project Management</p>
 </div>
 <div class="bar">
 <div style="width: 90%;">
-90%
+<p>90%</p>
 </div>
 </div>
 <div class="skill">
-Econometrics
+<p>Econometrics</p>
 </div>
 <div class="bar">
 <div style="width: 95%;">
-95%
+<p>95%</p>
 </div>
 </div>
 <div class="skill">
-Psychometrics
+<p>Psychometrics</p>
 </div>
 <div class="bar">
 <div style="width: 90%;">
-90%
+<p>90%</p>
 </div>
 </div>
 <div class="skill">
-Open Science
+<p>Open Science</p>
 </div>
 <div class="bar">
 <div style="width: 60%;">
-60%
+<p>60%</p>
 </div>
 </div>
 </div>
@@ -311,35 +362,35 @@ Open Science
 Analytical Skills
 </h2>
 <div class="skill">
-Scientific Method
+<p>Scientific Method</p>
 </div>
 <div class="bar">
 <div style="width: 95%;">
-95%
+<p>95%</p>
 </div>
 </div>
 <div class="skill">
-Math
+<p>Math</p>
 </div>
 <div class="bar">
 <div style="width: 80%;">
-80%
+<p>80%</p>
 </div>
 </div>
 <div class="skill">
-Statistic
+<p>Statistic</p>
 </div>
 <div class="bar">
 <div style="width: 90%;">
-90%
+<p>90%</p>
 </div>
 </div>
 <div class="skill">
-English
+<p>English</p>
 </div>
 <div class="bar">
 <div style="width: 75%;">
-75%
+<p>75%</p>
 </div>
 </div>
 </div>
@@ -348,53 +399,160 @@ English
 Technical Skills
 </h2>
 <div class="skill">
-SPSS/Stata
+<p>SPSS/Stata</p>
 </div>
 <div class="bar">
 <div style="width: 90%;">
-90%
+<p>90%</p>
 </div>
 </div>
 <div class="skill">
-R
+<p>R</p>
 </div>
 <div class="bar">
 <div style="width: 85%;">
-85%
+<p>85%</p>
 </div>
 </div>
 <div class="skill">
-Python
+<p>Python</p>
 </div>
 <div class="bar">
 <div style="width: 80%;">
-80%
+<p>80%</p>
 </div>
 </div>
 <div class="skill">
-SQL
+<p>SQL</p>
 </div>
 <div class="bar">
 <div style="width: 60%;">
-60%
+<p>60%</p>
 </div>
 </div>
 <div class="skill">
-PowerBI/Tableau
+<p>PowerBI/Tableau</p>
 </div>
 <div class="bar">
 <div style="width: 65%;">
-65%
+<p>65%</p>
 </div>
 </div>
 <div class="skill">
-Git/GitHub
+<p>Git/GitHub</p>
 </div>
 <div class="bar">
 <div style="width: 75%;">
-75%
+<p>75%</p>
 </div>
 </div>
+</div>
+</div>
+</section>
+<section id="education-and-experience" class="level1">
+<h1>Education and Experience</h1>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Loading the timevis package</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(timevis)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating data for the timeline with groups</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">content =</span> <span class="fu">c</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Graduate Degree in Economics"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Graduate Degree in Accounting"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Corporate Governance Researcher"</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Undergraduate Professor in Finance"</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Master’s Degree in Administration"</span>, </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Postgraduate Degree in Applied Statistics"</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Behavioral Finance Researcher"</span>, </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Undergraduate Professor in Accounting"</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Postgraduate Professor in Finance"</span>, </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Finance Consultant"</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"MBA in Project Management Coordinator"</span>, </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Postgraduate Professor in Project Management"</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Postgraduate Professor in Statistics"</span>, </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Economic Psychology Researcher"</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"PhD in Finance"</span>, <span class="st">"Revelation in Finance Award"</span>, </span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Postgraduate Professor in Econometrics"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Financial Literacy Researcher"</span>, </span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Data Science Consultant"</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Data Science Researcher"</span>, </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Psychometrics Professor"</span>,</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Psico&amp;Econo_METRIA"</span>, </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Open Science Enthusiast"</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">start =</span> <span class="fu">c</span>(</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2003-01-01"</span>, </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2004-01-01"</span>, </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2004-06-01"</span>, </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2005-01-01"</span>, </span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2006-01-01"</span>,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2006-06-01"</span>, </span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2007-01-01"</span>, </span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2007-06-01"</span>, </span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2007-12-01"</span>, </span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2008-01-01"</span>,</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2009-01-01"</span>, </span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2009-06-01"</span>, </span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2010-01-01"</span>, </span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2010-06-01"</span>, </span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2011-01-01"</span>,</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2011-06-01"</span>, </span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2012-01-01"</span>, </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2013-01-01"</span>, </span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2014-01-01"</span>, </span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2017-01-01"</span>,</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2019-01-01"</span>, </span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2021-01-01"</span>, </span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2024-01-01"</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>  <span class="at">group =</span> <span class="fu">c</span>(<span class="dv">1</span>, </span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>            <span class="dv">1</span>, </span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>            <span class="dv">1</span>, </span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>            <span class="dv">1</span>, </span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>,</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>            <span class="dv">1</span>, </span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>, </span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span>,</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>            <span class="dv">3</span>, </span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>            <span class="dv">2</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating groups to categorize events</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>groups <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>,</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>  <span class="at">content =</span> <span class="fu">c</span>(<span class="st">"Education"</span>, <span class="st">"Experience"</span>, <span class="st">"Teaching"</span>)</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating the timeline with groups</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="fu">timevis</span>(data, <span class="at">groups =</span> groups, <span class="at">options =</span> <span class="fu">list</span>(</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>  <span class="at">orientation =</span> <span class="fu">list</span>(<span class="at">axis =</span> <span class="st">"top"</span>, <span class="at">item =</span> <span class="st">"top"</span>)</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-db2114ff29b7d3ae7020" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-db2114ff29b7d3ae7020">{"x":{"items":[{"content":"Graduate Degree in Economics","start":"2003-01-01","group":"1"},{"content":"Graduate Degree in Accounting","start":"2004-01-01","group":"1"},{"content":"Corporate Governance Researcher","start":"2004-06-01","group":"2"},{"content":"Undergraduate Professor in Finance","start":"2005-01-01","group":"3"},{"content":"Master’s Degree in Administration","start":"2006-01-01","group":"1"},{"content":"Postgraduate Degree in Applied Statistics","start":"2006-06-01","group":"1"},{"content":"Behavioral Finance Researcher","start":"2007-01-01","group":"2"},{"content":"Undergraduate Professor in Accounting","start":"2007-06-01","group":"3"},{"content":"Postgraduate Professor in Finance","start":"2007-12-01","group":"3"},{"content":"Finance Consultant","start":"2008-01-01","group":"2"},{"content":"MBA in Project Management Coordinator","start":"2009-01-01","group":"2"},{"content":"Postgraduate Professor in Project Management","start":"2009-06-01","group":"3"},{"content":"Postgraduate Professor in Statistics","start":"2010-01-01","group":"3"},{"content":"Economic Psychology Researcher","start":"2010-06-01","group":"2"},{"content":"PhD in Finance","start":"2011-01-01","group":"1"},{"content":"Revelation in Finance Award","start":"2011-06-01","group":"2"},{"content":"Postgraduate Professor in Econometrics","start":"2012-01-01","group":"3"},{"content":"Financial Literacy Researcher","start":"2013-01-01","group":"2"},{"content":"Data Science Consultant","start":"2014-01-01","group":"2"},{"content":"Data Science Researcher","start":"2017-01-01","group":"2"},{"content":"Psychometrics Professor","start":"2019-01-01","group":"3"},{"content":"Psico&Econo_METRIA","start":"2021-01-01","group":"3"},{"content":"Open Science Enthusiast","start":"2024-01-01","group":"2"}],"groups":[{"id":"1","content":"Education"},{"id":"2","content":"Experience"},{"id":"3","content":"Teaching"}],"showZoom":true,"zoomFactor":0.5,"fit":true,"options":{"orientation":{"axis":"top","item":"top"}},"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

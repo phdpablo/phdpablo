@@ -1,28 +1,23 @@
 ---
-title: "Curriculum"
+title: Curriculum
 format: html
 ---
 
+I was "trained" in the **culture of data modeling**. I don't think it could have been any other way, because the concept was to be a **financial researcher from a young age**, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables.
 
+So, over the last two decades, I've evaluated hundreds (yes, **hundreds of articles and consulting reports!**) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.
 
-I was "trained" in the culture of data modeling. I don't think it could have been any other way, because the concept was to be a financial researcher from a young age, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables.
+The **Econometrics** discipline was my foundation for the first 15 years; however, in the last seven years, I have focused on the **Psychometrics** discipline, due to a high demand to work with **latent variables and validate measurement instruments**, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I've always worked with health experts during this time, so I'm comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.
 
+However, in recent years, especially after 2020, I have focused my efforts on **algorithmic modeling culture** in order to work with massive databases and **focus on prediction**. As a result, I have worked to improve my understanding of the following **machine learning techniques**: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations.
 
-So, over the last two decades, I've evaluated hundreds (yes, hundreds of articles and consulting reports!) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.
-
-
-The Econometrics discipline was my foundation for the first 15 years; however, in the last seven years, I have focused on the Psychometrics discipline, due to a high demand to work with latent variables and validate measurement instruments, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I've always worked with health experts during this time, so I'm comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.
-
-
-However, in recent years, especially after 2020, I have focused my efforts on algorithmic modeling culture in order to work with massive databases and focus on prediction. As a result, I have worked to improve my understanding of the following machine learning techniques: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations.
-
-
-In this context, I have attempted to study the most popular Data Science tools, including SQL, R, Python (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), PowerBi, and Tableau. I've used RStudio and Jupyter as IDEs within the Anaconda environment. But isn't that the least of this information? As I frequently emphasize, tools are ephemeral!
-
+In this context, I have attempted to study the most popular **Data Science tools**, including **SQL, R, Python** (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), **PowerBi, and Tableau**. I've used RStudio and Jupyter as IDEs within the Anaconda environment. But isn't that the least of this information? As I frequently emphasize, tools are ephemeral!
 
 I frequently tell this story... I spent five years using proprietary structural equation modeling software that no longer works for me. I performed a lot of research and decided on a free one that would initially fit me. It took me an afternoon to master this new software: I knew what all the small buttons (choices) I had to hit (take). First and foremost, comprehend the techniques!
 
+Below I present a brief summary of my skills, educational background and experience. You can find my full (almost 😁) CV here.
 
+```{=html}
 
 <style>
 /* Estilos para a seção de habilidades */
@@ -67,68 +62,269 @@ h2 {
     font-weight: bold;
 }
 </style>
+```
+# Skills
 
-# My Skills
-
-<div class="container">
-
-<div class="column">
+::: container
+::: column
 <h2>Domain Knowledge</h2>
-<div class="skill">Finance</div>
-<div class="bar"><div style="width: 95%;">95%</div></div>
 
-<div class="skill">Project Management</div>
-<div class="bar"><div style="width: 90%;">90%</div></div>
+::: skill
+Finance
+:::
 
-<div class="skill">Econometrics</div>
-<div class="bar"><div style="width: 95%;">95%</div></div>
+::: bar
+::: {style="width: 95%;"}
+95%
+:::
+:::
 
-<div class="skill">Psychometrics</div>
-<div class="bar"><div style="width: 90%;">90%</div></div>
+::: skill
+Project Management
+:::
 
-<div class="skill">Open Science</div>
-<div class="bar"><div style="width: 60%;">60%</div></div>
-</div>
+::: bar
+::: {style="width: 90%;"}
+90%
+:::
+:::
 
-<div class="column">
+::: skill
+Econometrics
+:::
+
+::: bar
+::: {style="width: 95%;"}
+95%
+:::
+:::
+
+::: skill
+Psychometrics
+:::
+
+::: bar
+::: {style="width: 90%;"}
+90%
+:::
+:::
+
+::: skill
+Open Science
+:::
+
+::: bar
+::: {style="width: 60%;"}
+60%
+:::
+:::
+:::
+
+::: column
 <h2>Analytical Skills</h2>
-<div class="skill">Scientific Method</div>
-<div class="bar"><div style="width: 95%;">95%</div></div>
 
-<div class="skill">Math</div>
-<div class="bar"><div style="width: 80%;">80%</div></div>
+::: skill
+Scientific Method
+:::
 
-<div class="skill">Statistic</div>
-<div class="bar"><div style="width: 90%;">90%</div></div>
+::: bar
+::: {style="width: 95%;"}
+95%
+:::
+:::
 
-<div class="skill">English</div>
-<div class="bar"><div style="width: 75%;">75%</div></div>
-</div>
+::: skill
+Math
+:::
 
-<div class="column">
+::: bar
+::: {style="width: 80%;"}
+80%
+:::
+:::
+
+::: skill
+Statistic
+:::
+
+::: bar
+::: {style="width: 90%;"}
+90%
+:::
+:::
+
+::: skill
+English
+:::
+
+::: bar
+::: {style="width: 75%;"}
+75%
+:::
+:::
+:::
+
+::: column
 <h2>Technical Skills</h2>
-<div class="skill">SPSS/Stata</div>
-<div class="bar"><div style="width: 90%;">90%</div></div>
 
-<div class="skill">R</div>
-<div class="bar"><div style="width: 85%;">85%</div></div>
+::: skill
+SPSS/Stata
+:::
 
-<div class="skill">Python</div>
-<div class="bar"><div style="width: 80%;">80%</div></div>
+::: bar
+::: {style="width: 90%;"}
+90%
+:::
+:::
 
-<div class="skill">SQL</div>
-<div class="bar"><div style="width: 60%;">60%</div></div>
+::: skill
+R
+:::
 
-<div class="skill">PowerBI/Tableau</div>
-<div class="bar"><div style="width: 65%;">65%</div></div>
+::: bar
+::: {style="width: 85%;"}
+85%
+:::
+:::
 
-<div class="skill">Git/GitHub</div>
-<div class="bar"><div style="width: 75%;">75%</div></div>
-</div>
+::: skill
+Python
+:::
 
-</div>
+::: bar
+::: {style="width: 80%;"}
+80%
+:::
+:::
 
+::: skill
+SQL
+:::
 
+::: bar
+::: {style="width: 60%;"}
+60%
+:::
+:::
 
+::: skill
+PowerBI/Tableau
+:::
 
+::: bar
+::: {style="width: 65%;"}
+65%
+:::
+:::
 
+::: skill
+Git/GitHub
+:::
+
+::: bar
+::: {style="width: 75%;"}
+75%
+:::
+:::
+:::
+:::
+
+# Education and Experience
+
+```{r}
+#| warning: false
+#| collapse: true
+#| code-fold: true
+
+# Loading the timevis package
+library(timevis)
+
+# Creating data for the timeline with groups
+data <- data.frame(
+  content = c(
+    "Graduate Degree in Economics",
+    "Graduate Degree in Accounting",
+    "Corporate Governance Researcher",
+    "Undergraduate Professor in Finance",
+    "Master’s Degree in Administration", 
+    "Postgraduate Degree in Applied Statistics",
+    "Behavioral Finance Researcher", 
+    "Undergraduate Professor in Accounting",
+    "Postgraduate Professor in Finance", 
+    "Finance Consultant",
+    "MBA in Project Management Coordinator", 
+    "Postgraduate Professor in Project Management",
+    "Postgraduate Professor in Statistics", 
+    "Economic Psychology Researcher",
+    "PhD in Finance", "Revelation in Finance Award", 
+    "Postgraduate Professor in Econometrics",
+    "Financial Literacy Researcher", 
+    "Data Science Consultant",
+    "Data Science Researcher", 
+    "Psychometrics Professor",
+    "Psico&Econo_METRIA", 
+    "Open Science Enthusiast"
+  ),
+  start = c(
+    "2003-01-01", 
+    "2004-01-01", 
+    "2004-06-01", 
+    "2005-01-01", 
+    "2006-01-01",
+    "2006-06-01", 
+    "2007-01-01", 
+    "2007-06-01", 
+    "2007-12-01", 
+    "2008-01-01",
+    "2009-01-01", 
+    "2009-06-01", 
+    "2010-01-01", 
+    "2010-06-01", 
+    "2011-01-01",
+    "2011-06-01", 
+    "2012-01-01", 
+    "2013-01-01", 
+    "2014-01-01", 
+    "2017-01-01",
+    "2019-01-01", 
+    "2021-01-01", 
+    "2024-01-01"
+  ),
+  group = c(1, 
+            1, 
+            2, 
+            3, 
+            1, 
+            1, 
+            2, 
+            3, 
+            3, 
+            2,
+            2, 
+            3, 
+            3, 
+            2, 
+            1, 
+            2, 
+            3, 
+            2, 
+            2, 
+            2,
+            3, 
+            3, 
+            2
+  )
+)
+
+# Creating groups to categorize events
+groups <- data.frame(
+  id = 1:3,
+  content = c("Education", "Experience", "Teaching")
+)
+
+# Creating the timeline with groups
+timevis(data, groups = groups, options = list(
+  orientation = list(axis = "top", item = "top")
+))
+
+```
