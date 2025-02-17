@@ -3,4 +3,132 @@ title: "Curriculum"
 format: html
 ---
 
-Under construction
+
+
+I was "trained" in the culture of data modeling. I don't think it could have been any other way, because the concept was to be a financial researcher from a young age, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables.
+
+
+So, over the last two decades, I've evaluated hundreds (yes, hundreds of articles and consulting reports!) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.
+
+
+The Econometrics discipline was my foundation for the first 15 years; however, in the last seven years, I have focused on the Psychometrics discipline, due to a high demand to work with latent variables and validate measurement instruments, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I've always worked with health experts during this time, so I'm comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.
+
+
+However, in recent years, especially after 2020, I have focused my efforts on algorithmic modeling culture in order to work with massive databases and focus on prediction. As a result, I have worked to improve my understanding of the following machine learning techniques: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations.
+
+
+In this context, I have attempted to study the most popular Data Science tools, including SQL, R, Python (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), PowerBi, and Tableau. I've used RStudio and Jupyter as IDEs within the Anaconda environment. But isn't that the least of this information? As I frequently emphasize, tools are ephemeral!
+
+
+I frequently tell this story... I spent five years using proprietary structural equation modeling software that no longer works for me. I performed a lot of research and decided on a free one that would initially fit me. It took me an afternoon to master this new software: I knew what all the small buttons (choices) I had to hit (take). First and foremost, comprehend the techniques!
+
+
+
+<style>
+/* Estilos para a seção de habilidades */
+.container {
+    display: flex;
+    justify-content: space-between; /* Mantém as colunas lado a lado */
+    flex-wrap: nowrap; /* Impede que as colunas quebrem para a linha de baixo */
+    gap: 20px; /* Espaçamento entre as colunas */
+    max-width: 1000px; /* Limita a largura máxima da seção */
+    margin: auto; /* Centraliza na página */
+}
+.column {
+    width: 30%; /* Garante que todas as colunas caibam lado a lado */
+    min-width: 250px; /* Mantém boa exibição em telas menores */
+}
+h2 {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.skill {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 16px;
+    position: relative;
+}
+.bar div {
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+</style>
+
+# My Skills
+
+<div class="container">
+
+<div class="column">
+<h2>Domain Knowledge</h2>
+<div class="skill">Finance</div>
+<div class="bar"><div style="width: 95%;">95%</div></div>
+
+<div class="skill">Project Management</div>
+<div class="bar"><div style="width: 90%;">90%</div></div>
+
+<div class="skill">Econometrics</div>
+<div class="bar"><div style="width: 95%;">95%</div></div>
+
+<div class="skill">Psychometrics</div>
+<div class="bar"><div style="width: 90%;">90%</div></div>
+
+<div class="skill">Open Science</div>
+<div class="bar"><div style="width: 60%;">60%</div></div>
+</div>
+
+<div class="column">
+<h2>Analytical Skills</h2>
+<div class="skill">Scientific Method</div>
+<div class="bar"><div style="width: 95%;">95%</div></div>
+
+<div class="skill">Math</div>
+<div class="bar"><div style="width: 80%;">80%</div></div>
+
+<div class="skill">Statistic</div>
+<div class="bar"><div style="width: 90%;">90%</div></div>
+
+<div class="skill">English</div>
+<div class="bar"><div style="width: 75%;">75%</div></div>
+</div>
+
+<div class="column">
+<h2>Technical Skills</h2>
+<div class="skill">SPSS/Stata</div>
+<div class="bar"><div style="width: 90%;">90%</div></div>
+
+<div class="skill">R</div>
+<div class="bar"><div style="width: 85%;">85%</div></div>
+
+<div class="skill">Python</div>
+<div class="bar"><div style="width: 80%;">80%</div></div>
+
+<div class="skill">SQL</div>
+<div class="bar"><div style="width: 60%;">60%</div></div>
+
+<div class="skill">PowerBI/Tableau</div>
+<div class="bar"><div style="width: 65%;">65%</div></div>
+
+<div class="skill">Git/GitHub</div>
+<div class="bar"><div style="width: 75%;">75%</div></div>
+</div>
+
+</div>
+
+
+
+
+

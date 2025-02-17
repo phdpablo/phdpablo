@@ -3,11 +3,15 @@ title: "Portfolio"
 format: html
 ---
 
-On this page, I present the data science and analysis projects I've participated in over the past few years. Unfortunately, I've only organized and documented reports from projects between 2015 and the present. I evaluated hundreds of other databases between 2002 and 2014, but those analyses got lost in the shuffle (🤣😂😁).
+
+On this page, I present the data analysis projects I've participated in over the past few years. Unfortunately, I've only organized and documented reports from projects between 2015 and the present. I evaluated hundreds of other databases between 2002 and 2014, but those analyses got lost in the "limbo" (🤣😂😁).
+
 
 The projects are classified by area and identified with a generic title, which may or may not be a translation of the original work (whether published or not). For each project, I provide a brief description of the goals, characteristics of the data used, and the statistical methodology (technique, analysis, or tests) employed.
 
+
 These projects don't include the quantitative analyses I did in my academic research, which can be found on the Publications page.
+
 
 # Biology
 
