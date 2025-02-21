@@ -3,7 +3,9 @@ title: Curriculum
 format: html
 ---
 
+<p style="margin-top: 2em; margin-bottom: 1em;">
 I was "trained" in the **culture of data modeling**. I don't think it could have been any other way, because the concept was to be a **financial researcher from a young age**, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables.
+</p>
 
 So, over the last two decades, I've evaluated hundreds (yes, **hundreds of articles and consulting reports!**) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.
 

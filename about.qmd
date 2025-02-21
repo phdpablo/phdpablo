@@ -3,7 +3,9 @@ title: About me
 format: html
 ---
 
+<p style="margin-top: 2em; margin-bottom: 1em;">
 I'm Pietro and Alice's father, as well as Maressa's husband. I come from a poor home and had to start **working at the age of 14**. However, I always believed that education might improve my financial situation, therefore I never gave up. I spent my whole childhood in public school, and at the age of 20, I took a difficult decision: to enroll in **two concurrent higher education courses** (full-time economics and accounting sciences at night). Because my parents couldn't financially support me while I finished my studies, I did all I could to earn some "exchanged": **scientific initiation scholarship, disciplinary monitoring, consultant of the junior firm of the accounting sciences course**, and, most importantly, **computer technician**. The procedure was difficult, but I was able to complete both.
+</p>
 
 Perhaps because I was interested, restless, and intrigued by challenges, I opted to pursue an **academic career** in the third period of my two graduations. I passed various master's degree selection procedures and selected to do the **master's degree in Administration at UFU** since I still had to finish the accounting sciences course at the same university and was going to marry Maressa. I received a scholarship for my master's degree and had a notable performance: to this day, stories are repeated about how one student managed to produce **35 papers in two years!** Secret = a passion for statistical analysis and a willingness to assist everyone who approaches him.
 

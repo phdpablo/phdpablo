@@ -3,11 +3,20 @@ title: Hi, I'm Pablo Rogers
 format: html
 ---
 
+<p style="margin-top: 2em; margin-bottom: 1em;">
 **Welcome to my digital space!** 🥳🥰🤩 Here, I share information about my professional background, areas of interest, projects, publications, and contact details.
+</p>
 
 I am a professor, researcher, and consultant in the areas of **Finance** **and Quantitative Methods**, with an interest in **Information Technology**. A brief description of my personal background can be found [here](https://phdpablo.github.io/phdpablo/about.html).
 
-My professional experience has provided me with the opportunity to teach various **undergraduate and graduate courses** (Econometrics, Psychometrics, Financial Mathematics, Investment Analysis, Corporate Finance, Corporate Governance, Behavioral Finance, Capital Markets, Project Management, Accounting, etc.), where I have had the pleasure of interacting with hundreds of students and sharing my knowledge. I have also been involved in **dozens of consulting and research projects** throughout my career, a brief description of which can be found [here](https://phdpablo.github.io/phdpablo/cv.html).
+<img src="img/cover.png" alt="Minha foto" style="
+  width: 500px; /* Largura da imagem */
+  height: auto; /* Altura automática proporcional */
+  float: right; /* Alinha a imagem à direita */
+  opacity: 0.5; /* Define a transparência em 50% */
+">
+
+My professional experience has provided me with the opportunity to teach various undergraduate and graduate courses (**Econometrics, Psychometrics, Financial Mathematics, Investment Analysis, Corporate Finance, Corporate Governance, Behavioral Finance, Capital Markets, Project Management, Accounting**, etc.), where I have had the pleasure of interacting with hundreds of students and sharing my knowledge. I have also been involved in dozens of consulting and research projects throughout my career, a brief description of which can be found [here](https://phdpablo.github.io/phdpablo/cv.html).
 
 I also dedicate a [page](https://phdpablo.github.io/phdpablo/portfolio.html) of this digital space to describe (objectives, data used, and methodology) some data analysis projects (**Data Science portfolio**) that I have carried out since 2015, using varied statistical tools, different levels of complexity, and in diverse areas of knowledge.
 

@@ -3,6 +3,8 @@ project:
   output-dir: docs
 
 website:
+  page-navigation: true
+  back-to-top-navigation: true
   favicon: img/psicoeconometria.png
   navbar:
     collapse-level: 1
