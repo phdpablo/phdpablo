@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: G-BR5XK9Q67Y
   page-navigation: true
   back-to-top-navigation: true
   favicon: img/psicoeconometria.png
