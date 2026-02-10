@@ -4,30 +4,100 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Data Scientist | Researcher & Finance Specialist
 ------------------------------------------------
 
-I was "trained" in the culture of data modeling. I don't think it could have been any other way, because the concept was to be a financial researcher from a young age, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables. 
+Personal website built with [Quarto](https://quarto.org/) and hosted on GitHub Pages.
 
-So, over the last two decades, I've evaluated hundreds (yes, hundreds of articles and consulting reports!) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.
+🌍 Based in Uberlândia, Minas Gerais, Brazil  
+🖥️ See my portfolio at [phdpablo.com](https://www.phdpablo.com)  
+🚀 Currently working on [educational materials for data analysts and scientists](http://www.youtube.com/c/PsicoEconoMETRIA)  
 
-The Econometrics discipline was my foundation for the first 15 years; however, in the last five years, I have focused on the Psychometrics discipline, due to a high demand to work with latent variables and validate measurement instruments, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I've always worked with health experts during this time, so I'm comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.
+---
 
-However, in recent years, especially after 2020, I have focused my efforts on algorithmic modeling culture in order to work with massive databases and focus on prediction. As a result, I have worked to improve my understanding of the following machine learning techniques: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations. 
+## How to Update Content
 
-In this context, I have attempted to study the most popular Data Science tools, including SQL, R, Python (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), PowerBi, and Tableau. I've used RStudio and Jupyter as IDEs within the Anaconda environment.
+All repeating content (publications, projects, CV) lives in YAML data files inside `_data/`. Edit the appropriate file and re-render.
 
+### Add a New Publication
 
-* 🌍  I'm based in Uberlândia, Minas Gerais, Brazil
-* 🖥️  See my portfolio at [Personal Website](http://www.phdpablo.com)
-* 🚀  I'm currently working on [Educational materials for data analysts and scientists](http://www.youtube.com/c/PsicoEconoMETRIA)
-* 🧠  I'm learning Advanced Machine Leaning in Python and R
-* 🤝  I'm open to collaborating on Anything related to data science and data analysis
+1. Open `_data/publications.yml`
+2. Add an entry at the top of the file:
+   ```yaml
+   - year: 2026
+     title: "Your New Article Title"
+     journal: "Journal Name"
+     url: "https://doi.org/..."
+   ```
+3. Run `quarto render` to rebuild the site.
 
-### Skills
+### Add a New Portfolio Project
 
+1. Open `_data/projects.yml`
+2. Add an entry (use an existing `area` or create a new one):
+   ```yaml
+   - area: Finance
+     title: "Project Title"
+     objectives: "Brief description of the objectives."
+     data: "Description of data used."
+     methodology: "Techniques employed."
+   ```
+3. Run `quarto render`.
 
-<p align="left">
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rlang-colored.svg" width="36" height="36" alt="rlang" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>  and much more... see on my <a href="https://www.phdpablo.com">Website</a>
-</p>
+### Update CV (Skills or Timeline)
 
+1. Open `_data/cv.yml`
+2. To add a **skill**, find the appropriate section (`domain`, `analytical`, or `technical`) and add:
+   ```yaml
+   - name: "New Skill"
+     level: 80
+   ```
+3. To add a **timeline event**, add to the `timeline` list:
+   ```yaml
+   - content: "New Position or Degree"
+     start: "2026-01-01"
+     group: "Education"  # or "Experience" or "Teaching"
+   ```
+4. Run `quarto render`.
+
+---
+
+## Project Structure
+
+```
+├── _data/                  # Data files (edit these to update content)
+│   ├── publications.yml    # All publications
+│   ├── projects.yml        # Portfolio projects
+│   └── cv.yml              # Skills & timeline
+├── _filters/
+│   └── render-data.lua     # Lua filter for YAML → HTML rendering
+├── custom.scss             # Design system (colors, typography, components)
+├── _quarto.yml             # Quarto configuration
+├── index.qmd               # Landing page
+├── about.qmd               # About me
+├── cv.qmd                  # Curriculum (skills + timeline)
+├── papers.qmd              # Publications
+├── portfolio.qmd           # Portfolio
+├── psico.qmd               # Psico&Econo_METRIA project
+├── img/                    # Images
+└── docs/                   # Built site (GitHub Pages)
+```
+
+## Design System
+
+Colors are defined as SCSS tokens in `custom.scss`:
+
+| Token        | Hex       | Usage                          |
+|-------------|-----------|-------------------------------|
+| `$orange`    | `#F18C22` | Accents, CTAs, highlights     |
+| `$teal`      | `#87CBCC` | Secondary, links, badges      |
+| `$dark-blue` | `#0D232C` | Primary, backgrounds, text    |
+
+## Build & Preview
+
+```bash
+quarto render          # Build the site to docs/
+quarto preview         # Live preview with hot reload
+```
+
+---
 
 ### Socials
 
