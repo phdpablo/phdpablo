@@ -1,27 +1,119 @@
 ---
-title: Hi, I'm Pablo Rogers
-format: html
+title: ""
+format:
+  html:
+    toc: false
 ---
 
-<p style="margin-top: 2em; margin-bottom: 1em;">
-**Welcome to my digital space!** 🥳🥰🤩 Here, I share information about my professional background, areas of interest, projects, publications, and contact details.
-</p>
+::: {.hero-section}
 
-I am a professor, researcher, and consultant in the areas of **Finance** **and Quantitative Methods**, with an interest in **Information Technology**. A brief description of my personal background can be found [here](https://phdpablo.github.io/phdpablo/about.html).
+# Hi, I'm Pablo Rogers 👋
 
-<img src="img/cover.png" alt="Minha foto" style="
-  width: 500px; /* Largura da imagem */
-  height: auto; /* Altura automática proporcional */
-  float: right; /* Alinha a imagem à direita */
-  opacity: 0.5; /* Define a transparência em 50% */
-">
+::: {.hero-subtitle}
+Professor · Researcher · Data Scientist · Finance & Quantitative Methods
+:::
 
-My professional experience has provided me with the opportunity to teach various undergraduate and graduate courses (**Econometrics, Psychometrics, Financial Mathematics, Investment Analysis, Corporate Finance, Corporate Governance, Behavioral Finance, Capital Markets, Project Management, Accounting**, etc.), where I have had the pleasure of interacting with hundreds of students and sharing my knowledge. I have also been involved in dozens of consulting and research projects throughout my career, a brief description of which can be found [here](https://phdpablo.github.io/phdpablo/cv.html).
+::: {.hero-text}
+Welcome to my digital space! 🥳🥰🤩 I share information about my professional background, areas of interest, projects, publications, and contact details. I am a professor, researcher, and consultant in **Finance and Quantitative Methods**, with a keen interest in **Information Technology** and **Open Science**.
+:::
 
-I also dedicate a [page](https://phdpablo.github.io/phdpablo/portfolio.html) of this digital space to describe (objectives, data used, and methodology) some data analysis projects (**Data Science portfolio**) that I have carried out since 2015, using varied statistical tools, different levels of complexity, and in diverse areas of knowledge.
+[About Me](about.html){.btn-cta .btn-orange}
+[View CV](cv.html){.btn-cta .btn-outline}
 
-In addition to teaching, I am passionate about research, having published some **scientific articles** with applications of quantitative methods in the areas of **finance and management**. More recently, I have been dedicated to producing materials on **statistical and computational literacy** for applied social scientists, with the publication of **tutorial articles** and solutions for **reproducible research**, some of which can be found [here](https://phdpablo.github.io/phdpablo/papers.html).
+:::
 
-Last but not least, I also dedicate [space](https://phdpablo.github.io/phdpablo/psico.html) to talk a bit about the **"Psico&Econo_METRIA" project**. This is an extension project whose main focus is maintaining a [channel on YouTube](https://www.youtube.com/c/PsicoEconoMETRIA) (and other social networks) with the objective of **scientific production and dissemination**, specifically, data analysis in the context of business (**Econometrics**) and applied social sciences (**Psychometrics**). More recently, this project has also sponsored courses and workshops on tools for **reproducible quantitative research**, in the context of **Open Science**.
+## Explore {.section-heading}
+
+::: {.section-sub}
+Navigate through my work and professional journey.
+:::
+
+::: {.nav-cards}
+
+::: {.nav-card}
+[🧑‍🏫]{.card-icon}
+[About Me]{.card-title}
+[Personal background, education, and the story of how I built my academic career.]{.card-desc}
+
+[Read more →](about.html)
+:::
+
+::: {.nav-card}
+[📄]{.card-icon}
+[Curriculum]{.card-title}
+[Skills, educational background, and a 20+ year professional timeline.]{.card-desc}
+
+[View CV →](cv.html)
+:::
+
+::: {.nav-card}
+[📊]{.card-icon}
+[Portfolio]{.card-title}
+[145+ data analysis projects across business, health, finance, psychology, and more.]{.card-desc}
+
+[See projects →](portfolio.html)
+:::
+
+::: {.nav-card}
+[📚]{.card-icon}
+[Publications]{.card-title}
+[Scientific articles on quantitative methods, finance, psychometrics, and open science.]{.card-desc}
+
+[Browse papers →](papers.html)
+:::
+
+::: {.nav-card}
+[🎬]{.card-icon}
+[Psico&Econo_METRIA]{.card-title}
+[YouTube channel for scientific production and dissemination on data analysis.]{.card-desc}
+
+[Learn more →](psico.html)
+:::
+
+:::
+
+## Recent Publications {.section-heading}
+
+::: {.section-sub}
+A selection of my most recent work. [See all →](papers.html)
+:::
+
+::: {.highlight-grid}
+
+::: {.highlight-card}
+[2025]{.hl-year}
+[Best Practices for Your Confirmatory Factor Analysis: A JASP and *lavaan* Tutorial]{.hl-title}
+[Behavior Research Methods (2024)]{.hl-journal}
+:::
+
+::: {.highlight-card}
+[2025]{.hl-year}
+[Open Science in Three Acts: Foundations, Practice, and Implementation]{.hl-title}
+[Brazilian Administration Review]{.hl-journal}
+:::
+
+::: {.highlight-card}
+[2025]{.hl-year}
+[Financial Well-Being, Health, and Quality of Life: Evidence from Investors]{.hl-title}
+[International Journal for Quality Research]{.hl-journal}
+:::
+
+::: {.highlight-card}
+[2024]{.hl-year}
+[Unlocking VB-SEM: Practical PLS-SEM Tutorial Using JASP]{.hl-title}
+[OSF Preprint]{.hl-journal}
+:::
+
+:::
+
+## About This Space {.section-heading}
+
+My professional experience has provided me with the opportunity to teach various undergraduate and graduate courses (**Econometrics, Psychometrics, Financial Mathematics, Investment Analysis, Corporate Finance, Corporate Governance, Behavioral Finance, Capital Markets, Project Management, Accounting**, etc.), where I have had the pleasure of interacting with hundreds of students and sharing my knowledge. I have also been involved in dozens of consulting and research projects throughout my career, a brief description of which can be found on my [CV page](cv.html).
+
+I also dedicate a [page](portfolio.html) of this digital space to describe some data analysis projects (**Data Science portfolio**) that I have carried out since 2015, using varied statistical tools, different levels of complexity, and in diverse areas of knowledge.
+
+In addition to teaching, I am passionate about research, having published **scientific articles** with applications of quantitative methods in **finance and management**. More recently, I have been dedicated to producing materials on **statistical and computational literacy** for applied social scientists, which can be found on my [publications page](papers.html).
+
+Last but not least, I also dedicate [space](psico.html) to talk about the **"Psico&Econo_METRIA" project** — an extension project focused on maintaining a [channel on YouTube](https://www.youtube.com/c/PsicoEconoMETRIA) for **scientific production and dissemination** on data analysis in business (**Econometrics**) and applied social sciences (**Psychometrics**).
 
 It's a pleasure to have you here and feel free to get in touch 😉. I will make a tremendous effort to assist you 🤞.

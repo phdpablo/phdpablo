@@ -1,0 +1,452 @@
+/*-- scss:defaults --*/
+
+// ─── Color Tokens ───────────────────────────────────────────────────────
+$orange:      #F18C22;
+$teal:        #87CBCC;
+$dark-blue:   #0D232C;
+
+$white:       #FFFFFF;
+$light-gray:  #F8F9FA;
+$mid-gray:    #6C757D;
+
+// ─── Bootstrap Theme Mapping ────────────────────────────────────────────
+$primary:   $dark-blue;
+$secondary: $teal;
+$info:      $teal;
+$warning:   $orange;
+$body-bg:   $white;
+$body-color: $dark-blue;
+
+$link-color: $orange;
+$link-hover-color: darken($orange, 12%);
+
+// ─── Typography ─────────────────────────────────────────────────────────
+$font-family-sans-serif: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight:   700;
+$font-size-base:         1rem;
+
+// ─── Spacing ────────────────────────────────────────────────────────────
+$spacer: 1rem;
+
+// ─── Border & Radius ────────────────────────────────────────────────────
+$border-radius:    0.5rem;
+$border-radius-lg: 0.75rem;
+
+// ─── Navbar ─────────────────────────────────────────────────────────────
+$navbar-bg:          $dark-blue;
+$navbar-fg:          $white;
+$navbar-dark-color:  $white;
+
+/*-- scss:rules --*/
+
+// ─── Google Font Import ─────────────────────────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+// ─── Hero Section ───────────────────────────────────────────────────────
+.hero-section {
+  background: linear-gradient(135deg, $dark-blue 0%, lighten($dark-blue, 8%) 100%);
+  color: $white;
+  padding: 4rem 2rem;
+  border-radius: $border-radius-lg;
+  margin-bottom: 2.5rem;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -30%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: rgba($teal, 0.08);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: $teal;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: rgba($white, 0.85);
+    max-width: 700px;
+  }
+}
+
+// ─── CTA Buttons ────────────────────────────────────────────────────────
+.btn-cta {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  border-radius: $border-radius;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+
+  &.btn-orange {
+    background-color: $orange;
+    color: $white;
+    border: 2px solid $orange;
+    &:hover {
+      background-color: darken($orange, 8%);
+      border-color: darken($orange, 8%);
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  &.btn-outline {
+    background-color: transparent;
+    color: $teal;
+    border: 2px solid $teal;
+    &:hover {
+      background-color: $teal;
+      color: $dark-blue;
+      text-decoration: none;
+    }
+  }
+}
+
+// ─── Navigation Cards ───────────────────────────────────────────────────
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.nav-card {
+  background: $white;
+  border: 1px solid rgba($dark-blue, 0.1);
+  border-radius: $border-radius-lg;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: $dark-blue;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba($dark-blue, 0.12);
+    border-color: $orange;
+    text-decoration: none;
+    color: $dark-blue;
+  }
+
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-desc {
+    font-size: 0.9rem;
+    color: $mid-gray;
+    line-height: 1.5;
+  }
+}
+
+// ─── Section Headings ───────────────────────────────────────────────────
+.section-heading {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: $dark-blue;
+  margin-bottom: 0.5rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: $orange;
+    margin-top: 0.5rem;
+    border-radius: 2px;
+  }
+}
+
+.section-sub {
+  color: $mid-gray;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+// ─── Highlight Cards (for publications/projects on landing) ─────────────
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.highlight-card {
+  background: $light-gray;
+  border-radius: $border-radius;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid $orange;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: lighten($light-gray, 1%);
+    box-shadow: 0 4px 12px rgba($dark-blue, 0.08);
+  }
+
+  .hl-year {
+    display: inline-block;
+    background: $orange;
+    color: $white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+  }
+
+  .hl-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: $dark-blue;
+    margin-bottom: 0.35rem;
+    line-height: 1.4;
+
+    a {
+      color: $dark-blue;
+      text-decoration: none;
+      &:hover { color: $orange; }
+    }
+  }
+
+  .hl-journal {
+    font-size: 0.82rem;
+    color: $mid-gray;
+    font-style: italic;
+  }
+}
+
+// ─── Badge / Tag ────────────────────────────────────────────────────────
+.badge-area {
+  display: inline-block;
+  background: rgba($teal, 0.15);
+  color: darken($teal, 25%);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+// ─── Skills Bar (CV page) ───────────────────────────────────────────────
+.skill-bar-container {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+.skill-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skill-col h3 {
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 2px solid $dark-blue;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.skill-item {
+  margin-bottom: 0.75rem;
+
+  .skill-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+
+  .skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 16px;
+
+    .skill-fill {
+      height: 100%;
+      background-color: $dark-blue;
+      text-align: center;
+      color: $white;
+      font-size: 0.7rem;
+      line-height: 16px;
+      font-weight: 700;
+      border-radius: 5px;
+    }
+  }
+}
+
+// ─── Timeline (CV page) ────────────────────────────────────────────────
+.timeline-section {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient($orange, $teal);
+    border-radius: 2px;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -2.35rem;
+    top: 0.25rem;
+    width: 12px;
+    height: 12px;
+    background: $orange;
+    border-radius: 50%;
+    border: 2px solid $white;
+    box-shadow: 0 0 0 3px rgba($orange, 0.2);
+  }
+
+  .tl-year {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: $orange;
+  }
+
+  .tl-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $dark-blue;
+    margin-bottom: 0.15rem;
+  }
+
+  .tl-category {
+    font-size: 0.8rem;
+    color: $mid-gray;
+  }
+}
+
+// ─── Publication Table ──────────────────────────────────────────────────
+.pub-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+
+  th {
+    background: $dark-blue;
+    color: $white;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  td {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid rgba($dark-blue, 0.08);
+    font-size: 0.9rem;
+    vertical-align: top;
+  }
+
+  tr:hover td {
+    background: rgba($teal, 0.05);
+  }
+
+  .pub-year {
+    font-weight: 700;
+    white-space: nowrap;
+    color: $orange;
+  }
+}
+
+// ─── Project Cards (Portfolio) ──────────────────────────────────────────
+.project-section-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $dark-blue;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $teal;
+}
+
+// ─── Page Intro Paragraph (replaces inline margin styles) ───────────────
+.page-intro {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+// ─── Footer Styling ─────────────────────────────────────────────────────
+.nav-footer {
+  background: $dark-blue;
+  color: rgba($white, 0.7);
+  a { color: $teal; &:hover { color: $orange; } }
+}
+
+// ─── Dark Mode Overrides ────────────────────────────────────────────────
+[data-bs-theme="dark"] {
+  .hero-section {
+    background: linear-gradient(135deg, lighten($dark-blue, 4%) 0%, $dark-blue 100%);
+  }
+
+  .nav-card {
+    background: lighten($dark-blue, 6%);
+    border-color: rgba($teal, 0.15);
+    color: $white;
+    .card-desc { color: rgba($white, 0.6); }
+    &:hover {
+      border-color: $orange;
+      color: $white;
+    }
+  }
+
+  .highlight-card {
+    background: lighten($dark-blue, 5%);
+    .hl-title a { color: $white; &:hover { color: $orange; } }
+    .hl-journal { color: rgba($white, 0.5); }
+  }
+
+  .section-heading { color: $white; }
+
+  .skill-col h3 { border-bottom-color: $teal; }
+  .skill-item .skill-bar .skill-fill { background-color: $teal; }
+
+  .pub-table td { border-bottom-color: rgba($white, 0.08); }
+  .pub-table tr:hover td { background: rgba($teal, 0.08); }
+}

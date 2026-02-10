@@ -1,0 +1,129 @@
+timeline:
+  - content: "Graduate Degree in Economics"
+    start: "2003-01-01"
+    group: "Education"
+
+  - content: "Graduate Degree in Accounting"
+    start: "2004-01-01"
+    group: "Education"
+
+  - content: "Corporate Governance Researcher"
+    start: "2004-06-01"
+    group: "Experience"
+
+  - content: "Undergraduate Professor in Finance"
+    start: "2005-01-01"
+    group: "Teaching"
+
+  - content: "Master's Degree in Administration"
+    start: "2006-01-01"
+    group: "Education"
+
+  - content: "Postgraduate Degree in Applied Statistics"
+    start: "2006-06-01"
+    group: "Education"
+
+  - content: "Behavioral Finance Researcher"
+    start: "2007-01-01"
+    group: "Experience"
+
+  - content: "Undergraduate Professor in Accounting"
+    start: "2007-06-01"
+    group: "Teaching"
+
+  - content: "Postgraduate Professor in Finance"
+    start: "2007-12-01"
+    group: "Teaching"
+
+  - content: "Finance Consultant"
+    start: "2008-01-01"
+    group: "Experience"
+
+  - content: "MBA in Project Management Coordinator"
+    start: "2009-01-01"
+    group: "Experience"
+
+  - content: "Postgraduate Professor in Project Management"
+    start: "2009-06-01"
+    group: "Teaching"
+
+  - content: "Postgraduate Professor in Statistics"
+    start: "2010-01-01"
+    group: "Teaching"
+
+  - content: "Economic Psychology Researcher"
+    start: "2010-06-01"
+    group: "Experience"
+
+  - content: "PhD in Finance"
+    start: "2011-01-01"
+    group: "Education"
+
+  - content: "Revelation in Finance Award"
+    start: "2011-06-01"
+    group: "Experience"
+
+  - content: "Postgraduate Professor in Econometrics"
+    start: "2012-01-01"
+    group: "Teaching"
+
+  - content: "Financial Literacy Researcher"
+    start: "2013-01-01"
+    group: "Experience"
+
+  - content: "Data Science Consultant"
+    start: "2014-01-01"
+    group: "Experience"
+
+  - content: "Data Science Researcher"
+    start: "2017-01-01"
+    group: "Experience"
+
+  - content: "Psychometrics Professor"
+    start: "2019-01-01"
+    group: "Teaching"
+
+  - content: "Psico&Econo_METRIA"
+    start: "2021-01-01"
+    group: "Teaching"
+
+  - content: "Open Science Enthusiast"
+    start: "2024-01-01"
+    group: "Experience"
+
+skills:
+  domain:
+    - name: "Finance"
+      level: 95
+    - name: "Project Management"
+      level: 90
+    - name: "Econometrics"
+      level: 95
+    - name: "Psychometrics"
+      level: 90
+    - name: "Open Science"
+      level: 60
+
+  analytical:
+    - name: "Scientific Method"
+      level: 95
+    - name: "Math"
+      level: 80
+    - name: "Statistic"
+      level: 90
+    - name: "English"
+      level: 75
+
+  technical:
+    - name: "SPSS/Stata"
+      level: 90
+    - name: "R"
+      level: 85
+    - name: "Python"
+      level: 80
+    - name: "SQL"
+      level: 60
+    - name: "PowerBI/Tableau"
+      level: 65
+    - name: "Git/GitHub"
+      level: 75
