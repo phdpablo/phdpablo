@@ -93,29 +93,57 @@ local function render_projects(div)
   end
 
   local blocks = {}
+  
+  -- 1. Render Portfolio TOC
+  table.insert(blocks, '<div class="portfolio-toc">')
+  table.insert(blocks, '  <div class="toc-label">Filter by Area:</div>')
   for _, area in ipairs(area_order) do
-    table.insert(blocks, '<h1>' .. area .. '</h1>')
+    local area_id = area:lower():gsub("[^a-z0-9]", "-")
+    table.insert(blocks, '  <a href="#' .. area_id .. '" class="toc-link">' .. area .. '</a>')
+  end
+  table.insert(blocks, '</div>')
+
+  -- 2. Render Project Sections
+  for _, area in ipairs(area_order) do
+    local area_id = area:lower():gsub("[^a-z0-9]", "-")
+    table.insert(blocks, '<h2 id="' .. area_id .. '" class="project-section-title">' .. area .. '</h2>')
+    
     for _, proj in ipairs(areas[area]) do
       local title = proj.title or ""
       local objectives = proj.objectives or ""
       local data = proj.data or ""
       local methodology = proj.methodology or ""
 
-      table.insert(blocks, '<details class="callout-note">')
-      table.insert(blocks, '<summary>' .. title .. '</summary>')
-      table.insert(blocks, '<div class="callout-body">')
-      table.insert(blocks, '<ul>')
+      table.insert(blocks, '<details class="project-card">')
+      table.insert(blocks, '  <summary class="project-header">')
+      table.insert(blocks, '    <h3 class="project-title">' .. title .. '</h3>')
+      table.insert(blocks, '    <div class="project-cta"><i class="bi bi-chevron-down"></i></div>')
+      table.insert(blocks, '  </summary>')
+      table.insert(blocks, '  <div class="project-content">')
+      
       if objectives ~= "" then
-        table.insert(blocks, '<li><strong>Objectives:</strong> ' .. objectives .. '</li>')
+        table.insert(blocks, '    <div class="project-section">')
+        table.insert(blocks, '      <div class="section-label"><i class="bi bi-bullseye"></i> Objectives</div>')
+        table.insert(blocks, '      <div class="section-text">' .. objectives .. '</div>')
+        table.insert(blocks, '    </div>')
       end
+      
       if data ~= "" then
-        table.insert(blocks, '<li><strong>Data:</strong> ' .. data .. '</li>')
+        table.insert(blocks, '    <div class="project-section">')
+        table.insert(blocks, '      <div class="section-label"><i class="bi bi-database"></i> Data & Sources</div>')
+        table.insert(blocks, '      <div class="section-text">' .. data .. '</div>')
+        table.insert(blocks, '    </div>')
       end
+      
       if methodology ~= "" then
-        table.insert(blocks, '<li><strong>Methodology:</strong> ' .. methodology .. '</li>')
+        table.insert(blocks, '    <div class="project-section">')
+        table.insert(blocks, '      <div class="section-label"><i class="bi bi-gear-wide-connected"></i> Methodology</div>')
+        table.insert(blocks, '      <div class="section-text">' .. methodology .. '</div>')
+        table.insert(blocks, '    </div>')
       end
-      table.insert(blocks, '</ul>')
-      table.insert(blocks, '</div></details>')
+      
+      table.insert(blocks, '  </div>')
+      table.insert(blocks, '</details>')
     end
   end
 

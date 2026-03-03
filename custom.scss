@@ -418,12 +418,157 @@ $navbar-dark-color: $white;
   border-bottom: 2px solid $teal;
 }
 
-// ─── Page Intro Paragraph (replaces inline margin styles) ───────────────
-.page-intro {
-  margin-top: 2em;
-  margin-bottom: 1.5em;
-  font-size: 1.05rem;
-  line-height: 1.7;
+// ─── Portfolio Improvements ─────────────────────────────────────────────
+.portfolio-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem 0 3rem;
+  padding: 1.5rem;
+  background: $highlight-bg;
+  border-radius: $border-radius-lg;
+  border: 1px solid $card-border;
+
+  .toc-label {
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $text-muted;
+    margin-bottom: 0.5rem;
+  }
+
+  .toc-link {
+    background: $card-bg;
+    color: $body-color;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid $card-border;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $orange;
+      color: $white;
+      border-color: $orange;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+.project-card {
+  background: $card-bg;
+  border: 1px solid $card-border;
+  border-radius: $border-radius-lg;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-color: $teal;
+  }
+
+  .project-header {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+
+    .project-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: $heading-color;
+      margin: 0;
+      line-height: 1.4;
+      flex: 1;
+    }
+
+    .project-cta {
+      margin-left: 1rem;
+      background: rgba($teal, 0.1);
+      color: $teal;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+
+      i {
+        font-size: 1rem;
+        transition: transform 0.3s ease;
+      }
+    }
+  }
+
+  &[open] {
+    border-color: $teal;
+
+    .project-header {
+      border-bottom: 1px solid $card-border;
+
+      .project-cta {
+        background: $teal;
+        color: $white;
+
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  // Remove native accordion arrow
+  summary {
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  .project-content {
+    padding: 1.5rem;
+    background: rgba($highlight-bg, 0.5);
+
+    .project-section {
+      margin-bottom: 1.25rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .section-label {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: $orange;
+        margin-bottom: 0.5rem;
+
+        i {
+          margin-right: 0.6rem;
+          font-size: 1rem;
+        }
+      }
+
+      .section-text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: $body-color;
+      }
+    }
+  }
 }
 
 // ─── Footer Styling ─────────────────────────────────────────────────────
