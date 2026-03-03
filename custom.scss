@@ -132,12 +132,12 @@ $navbar-dark-color: $white;
 }
 
 .nav-card {
-  background: $white;
-  border: 1px solid rgba($dark-blue, 0.1);
+  background: $card-bg;
+  border: 1px solid $card-border;
   border-radius: $border-radius-lg;
   padding: 1.5rem;
   text-decoration: none;
-  color: $dark-blue;
+  color: $body-color;
   transition: all 0.25s ease;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ $navbar-dark-color: $white;
 
   .card-desc {
     font-size: 0.9rem;
-    color: $mid-gray;
+    color: $text-muted;
     line-height: 1.5;
   }
 }
@@ -173,7 +173,7 @@ $navbar-dark-color: $white;
 .section-heading {
   font-size: 1.6rem;
   font-weight: 800;
-  color: $dark-blue;
+  color: $heading-color;
   margin-bottom: 0.5rem;
 
   &::after {
@@ -188,7 +188,7 @@ $navbar-dark-color: $white;
 }
 
 .section-sub {
-  color: $mid-gray;
+  color: $text-muted;
   margin-bottom: 2rem;
   font-size: 1rem;
 }
@@ -202,7 +202,7 @@ $navbar-dark-color: $white;
 }
 
 .highlight-card {
-  background: $light-gray;
+  background: $highlight-bg;
   border-radius: $border-radius;
   padding: 1.25rem 1.5rem;
   border-left: 4px solid $orange;
@@ -227,12 +227,12 @@ $navbar-dark-color: $white;
   .hl-title {
     font-size: 0.95rem;
     font-weight: 600;
-    color: $dark-blue;
+    color: $body-color;
     margin-bottom: 0.35rem;
     line-height: 1.4;
 
     a {
-      color: $dark-blue;
+      color: $body-color;
       text-decoration: none;
 
       &:hover {
@@ -243,7 +243,7 @@ $navbar-dark-color: $white;
 
   .hl-journal {
     font-size: 0.82rem;
-    color: $mid-gray;
+    color: $text-muted;
     font-style: italic;
   }
 }
@@ -276,7 +276,7 @@ $navbar-dark-color: $white;
 .skill-col h3 {
   font-size: 1rem;
   text-align: center;
-  border-bottom: 2px solid $dark-blue;
+  border-bottom: 2px solid $heading-color;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -314,9 +314,9 @@ $navbar-dark-color: $white;
 .timeline-col-title {
   font-size: 1.2rem;
   font-weight: 700;
-  color: $dark-blue;
+  color: $heading-color;
   text-align: center;
-  border-bottom: 2px solid $dark-blue;
+  border-bottom: 2px solid $heading-color;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -365,13 +365,13 @@ $navbar-dark-color: $white;
   .tl-title {
     font-size: 1rem;
     font-weight: 600;
-    color: $dark-blue;
+    color: $body-color;
     margin-bottom: 0.15rem;
   }
 
   .tl-category {
     font-size: 0.8rem;
-    color: $mid-gray;
+    color: $text-muted;
   }
 }
 
@@ -412,7 +412,7 @@ $navbar-dark-color: $white;
 .project-section-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: $dark-blue;
+  color: $heading-color;
   margin: 2rem 0 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid $teal;
@@ -441,7 +441,7 @@ $navbar-dark-color: $white;
 }
 
 // ─── Dark Mode Overrides ────────────────────────────────────────────────
-[data-bs-theme="dark"] {
+body.quarto-dark {
   .hero-section {
     background: linear-gradient(135deg, lighten($dark-blue, 4%) 0%, $dark-blue 100%);
   }

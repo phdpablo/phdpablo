@@ -51,7 +51,7 @@ format:
   html:
     theme:
       light: [flatly, styles-light.scss, custom.scss]
-      dark: [darkly, custom.scss]
+      dark: [darkly, styles-dark.scss, custom.scss]
     toc: true
 
 filters:
