@@ -11,7 +11,5 @@ The projects are classified by area and identified with a generic title, which m
 
 These projects don't include the quantitative analyses I did in my academic research, which can be found on the Publications page.
 
-To add a new project, edit `_data/projects.yml`.
-
 ::: {.render-projects}
 :::

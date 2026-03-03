@@ -14,7 +14,7 @@ You can access the following repositories (social networks) to see all the publi
 | [![](img/zotero.png){target="_blank"}](https://www.zotero.org/phdpablo) | In my [Zotero profile](https://www.zotero.org/phdpablo){target="_blank"}, "things" are more organized 🤥. You will have access to my journal articles (in English and Portuguese) and you will be able to copy the citation in different styles and export it to BibTex and RIS. |
 
 ::: {.page-intro}
-Anyway, below I present my publications in English that I consider most relevant (sorted by date). To add a new publication, edit `_data/publications.yml`.
+Anyway, below I present my publications in English that I consider most relevant (sorted by date).
 :::
 
 ::: {.render-publications}
