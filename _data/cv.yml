@@ -87,9 +87,13 @@ timeline:
     start: "2021-01-01"
     group: "Teaching"
 
-  - content: "Open Science Enthusiast"
+  - content: "Open Science Researcher"
     start: "2024-01-01"
     group: "Experience"
+
+  - content: "Reproducible Research"
+    start: "2024-01-01"
+    group: "Teaching"
 
 skills:
   domain:
@@ -101,8 +105,10 @@ skills:
       level: 95
     - name: "Psychometrics"
       level: 90
+    - name: "Data Science"
+      level: 90
     - name: "Open Science"
-      level: 60
+      level: 85
 
   analytical:
     - name: "Scientific Method"
@@ -113,17 +119,21 @@ skills:
       level: 90
     - name: "English"
       level: 75
+    - name: "Machine Learning"
+      level: 75
+    - name: "Artificial Intelligence"
+      level: 70
 
   technical:
     - name: "SPSS/Stata"
       level: 90
-    - name: "R"
-      level: 85
-    - name: "Python"
+    - name: "R/Python"
       level: 80
-    - name: "SQL"
-      level: 60
-    - name: "PowerBI/Tableau"
-      level: 65
-    - name: "Git/GitHub"
+    - name: "JASP/Jamovi"
+      level: 85
+    - name: "Data Visualization"
+      level: 80
+    - name: "Git/GitHub/Docker"
       level: 75
+    - name: "HTML/CSS/Markdown/Quarto"
+      level: 70

@@ -24,9 +24,14 @@ local function read_yaml(path)
   local content = f:read("*a")
   f:close()
 
+  local python_exec = "python3"
+  if package.config:sub(1,1) == "\\" then
+    python_exec = "python"
+  end
+
   local ok, result = pcall(function()
     return quarto.json.decode(
-      pandoc.pipe("python3", {"-c",
+      pandoc.pipe(python_exec, {"-c",
         "import sys, yaml, json; json.dump(yaml.safe_load(sys.stdin.read()), sys.stdout)"
       }, content)
     )
@@ -155,30 +160,51 @@ local function render_timeline(div)
   local data = read_yaml("_data/cv.yml")
   if not data or not data.timeline then return div end
 
-  local sorted = {}
+  local groups = {
+    Education = {},
+    Experience = {},
+    Teaching = {}
+  }
+
   for _, item in ipairs(data.timeline) do
-    table.insert(sorted, item)
+    local g = item.group or "Other"
+    if not groups[g] then groups[g] = {} end
+    table.insert(groups[g], item)
   end
-  table.sort(sorted, function(a, b)
-    return (a.start or "") > (b.start or "")
-  end)
+
+  for g, list in pairs(groups) do
+    table.sort(list, function(a, b)
+      return (a.start or "") > (b.start or "")
+    end)
+  end
 
   local html = {}
-  table.insert(html, '<div class="timeline-section">')
+  table.insert(html, '<div class="skill-bar-container"><div class="skill-columns">')
 
-  for _, item in ipairs(sorted) do
-    local year = (item.start or ""):sub(1, 4)
-    local content = item.content or ""
-    local group = item.group or ""
-
-    table.insert(html, '<div class="timeline-item">')
-    table.insert(html, '  <div class="tl-year">' .. year .. '</div>')
-    table.insert(html, '  <div class="tl-title">' .. content .. '</div>')
-    table.insert(html, '  <div class="tl-category">' .. group .. '</div>')
-    table.insert(html, '</div>')
+  local group_order = {"Education", "Experience", "Teaching"}
+  
+  for _, g in ipairs(group_order) do
+    local list = groups[g]
+    if list and #list > 0 then
+      table.insert(html, '<div class="timeline-col">')
+      table.insert(html, '<h3 class="timeline-col-title">' .. g .. '</h3>')
+      table.insert(html, '<div class="timeline-section" style="margin-top: 1rem;">')
+      
+      for _, item in ipairs(list) do
+        local year = (item.start or ""):sub(1, 4)
+        local content = item.content or ""
+        
+        table.insert(html, '<div class="timeline-item">')
+        table.insert(html, '  <div class="tl-year">' .. year .. '</div>')
+        table.insert(html, '  <div class="tl-title">' .. content .. '</div>')
+        table.insert(html, '</div>')
+      end
+      
+      table.insert(html, '</div></div>')
+    end
   end
 
-  table.insert(html, '</div>')
+  table.insert(html, '</div></div>')
   return pandoc.RawBlock("html", table.concat(html, "\n"))
 end
 

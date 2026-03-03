@@ -17,7 +17,9 @@ In this context, I have attempted to study the most popular **Data Science tools
 
 I frequently tell this story... I spent five years using proprietary structural equation modeling software that no longer works for me. I performed a lot of research and decided on a free one that would initially fit me. It took me an afternoon to master this new software: I knew what all the small buttons (choices) I had to hit (take). First and foremost, comprehend the techniques!
 
-Below I present a brief summary of my skills, educational background and experience. You can find my full (almost 😁) CV here. To update skills or timeline, edit `_data/cv.yml`.
+Below I present a brief summary of my skills, educational background and experience.
+
+
 
 # Skills
 

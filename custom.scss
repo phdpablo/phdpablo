@@ -1,20 +1,20 @@
 /*-- scss:defaults --*/
 
 // ─── Color Tokens ───────────────────────────────────────────────────────
-$orange:      #F18C22;
-$teal:        #87CBCC;
-$dark-blue:   #0D232C;
+$orange: #F18C22;
+$teal: #87CBCC;
+$dark-blue: #0D232C;
 
-$white:       #FFFFFF;
-$light-gray:  #F8F9FA;
-$mid-gray:    #6C757D;
+$white: #FFFFFF;
+$light-gray: #F8F9FA;
+$mid-gray: #6C757D;
 
 // ─── Bootstrap Theme Mapping ────────────────────────────────────────────
-$primary:   $dark-blue;
+$primary: $dark-blue;
 $secondary: $teal;
-$info:      $teal;
-$warning:   $orange;
-$body-bg:   $white;
+$info: $teal;
+$warning: $orange;
+$body-bg: $white;
 $body-color: $dark-blue;
 
 $link-color: $orange;
@@ -22,21 +22,21 @@ $link-hover-color: darken($orange, 12%);
 
 // ─── Typography ─────────────────────────────────────────────────────────
 $font-family-sans-serif: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family:   "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-weight:   700;
-$font-size-base:         1rem;
+$headings-font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 700;
+$font-size-base: 1rem;
 
 // ─── Spacing ────────────────────────────────────────────────────────────
 $spacer: 1rem;
 
 // ─── Border & Radius ────────────────────────────────────────────────────
-$border-radius:    0.5rem;
+$border-radius: 0.5rem;
 $border-radius-lg: 0.75rem;
 
 // ─── Navbar ─────────────────────────────────────────────────────────────
-$navbar-bg:          $dark-blue;
-$navbar-fg:          $white;
-$navbar-dark-color:  $white;
+$navbar-bg: $dark-blue;
+$navbar-fg: $white;
+$navbar-dark-color: $white;
 
 /*-- scss:rules --*/
 
@@ -102,6 +102,7 @@ $navbar-dark-color:  $white;
     background-color: $orange;
     color: $white;
     border: 2px solid $orange;
+
     &:hover {
       background-color: darken($orange, 8%);
       border-color: darken($orange, 8%);
@@ -114,6 +115,7 @@ $navbar-dark-color:  $white;
     background-color: transparent;
     color: $teal;
     border: 2px solid $teal;
+
     &:hover {
       background-color: $teal;
       color: $dark-blue;
@@ -233,7 +235,10 @@ $navbar-dark-color:  $white;
     a {
       color: $dark-blue;
       text-decoration: none;
-      &:hover { color: $orange; }
+
+      &:hover {
+        color: $orange;
+      }
     }
   }
 
@@ -307,10 +312,20 @@ $navbar-dark-color:  $white;
 }
 
 // ─── Timeline (CV page) ────────────────────────────────────────────────
+.timeline-col-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $dark-blue;
+  text-align: center;
+  border-bottom: 2px solid $dark-blue;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .timeline-section {
   position: relative;
   padding-left: 2rem;
-  margin: 2rem 0;
+  margin: 1rem 0 2rem;
 
   &::before {
     content: "";
@@ -416,7 +431,14 @@ $navbar-dark-color:  $white;
 .nav-footer {
   background: $dark-blue;
   color: rgba($white, 0.7);
-  a { color: $teal; &:hover { color: $orange; } }
+
+  a {
+    color: $teal;
+
+    &:hover {
+      color: $orange;
+    }
+  }
 }
 
 // ─── Dark Mode Overrides ────────────────────────────────────────────────
@@ -429,7 +451,11 @@ $navbar-dark-color:  $white;
     background: lighten($dark-blue, 6%);
     border-color: rgba($teal, 0.15);
     color: $white;
-    .card-desc { color: rgba($white, 0.6); }
+
+    .card-desc {
+      color: rgba($white, 0.6);
+    }
+
     &:hover {
       border-color: $orange;
       color: $white;
@@ -438,15 +464,42 @@ $navbar-dark-color:  $white;
 
   .highlight-card {
     background: lighten($dark-blue, 5%);
-    .hl-title a { color: $white; &:hover { color: $orange; } }
-    .hl-journal { color: rgba($white, 0.5); }
+
+    .hl-title a {
+      color: $white;
+
+      &:hover {
+        color: $orange;
+      }
+    }
+
+    .hl-journal {
+      color: rgba($white, 0.5);
+    }
   }
 
-  .section-heading { color: $white; }
+  .section-heading {
+    color: $white;
+  }
 
-  .skill-col h3 { border-bottom-color: $teal; }
-  .skill-item .skill-bar .skill-fill { background-color: $teal; }
+  .skill-col h3 {
+    border-bottom-color: $teal;
+  }
 
-  .pub-table td { border-bottom-color: rgba($white, 0.08); }
-  .pub-table tr:hover td { background: rgba($teal, 0.08); }
+  .skill-item .skill-bar .skill-fill {
+    background-color: $teal;
+  }
+
+  .timeline-col-title {
+    border-bottom-color: $teal;
+    color: $white;
+  }
+
+  .pub-table td {
+    border-bottom-color: rgba($white, 0.08);
+  }
+
+  .pub-table tr:hover td {
+    background: rgba($teal, 0.08);
+  }
 }
