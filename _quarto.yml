@@ -50,7 +50,7 @@ website:
 format:
   html:
     theme:
-      light: [flatly, custom.scss]
+      light: [flatly, styles-light.scss, custom.scss]
       dark: [darkly, custom.scss]
     toc: true
 
