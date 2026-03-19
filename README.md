@@ -1,40 +1,129 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Pablo Rogers
-====================================================================================================================================
+# Pablo Rogers
 
-Data Scientist | Researcher & Finance Specialist
-------------------------------------------------
+**Researcher · Data Science Consultant · Educator**
 
-I was "trained" in the culture of data modeling. I don't think it could have been any other way, because the concept was to be a financial researcher from a young age, with the goal of extracting knowledge about the nature of the relationship between response variables and explanatory variables. 
+I work at the intersection of **Econometrics, Psychometrics, Data Science, Reproducible Research, and Open Science**.
 
-So, over the last two decades, I've evaluated hundreds (yes, hundreds of articles and consulting reports!) of databases using classical statistical approaches such as Descriptive Analysis, Bivariate Analysis, ANOVA, Regression Analysis, Multivariate Analysis, Generalized Linear Model, Generalized Estimating Equation, Generalized Mixed Model, Time Series Analysis, Structural Equation Modeling, Spatial Analysis, Item Response Theory, and Computational Simulation.
+Over the last two decades, I have worked with quantitative methods across finance, health, psychology, education, epidemiology, and business, helping researchers and institutions turn complex data into sound evidence, better decisions, and practical learning resources.
 
-The Econometrics discipline was my foundation for the first 15 years; however, in the last five years, I have focused on the Psychometrics discipline, due to a high demand to work with latent variables and validate measurement instruments, and, of course, because I have fallen in love with psychometrics techniques. Anyway, I've always worked with health experts during this time, so I'm comfortable with their procedures and language. In this context, I attempted to master a variety of proprietary software, including Excel, SPSS, Stata, Eviews, Amos, SmartPLS, and Statistica, as well as open-source software, including R, JASP, jamovi, GPower, and GeoDa.
+[Website](https://phdpablo.com) · [CV](https://phdpablo.com/cv.html) · [Portfolio](https://phdpablo.com/portfolio.html) · [Publications](https://phdpablo.com/papers.html) · [YouTube](https://www.youtube.com/@PsicoEconoMETRIA) · [LinkedIn](https://www.linkedin.com/in/phdpablo)
 
-However, in recent years, especially after 2020, I have focused my efforts on algorithmic modeling culture in order to work with massive databases and focus on prediction. As a result, I have worked to improve my understanding of the following machine learning techniques: Lasso and Ridge Regressions, KNN, Random Forests, Bagging, Boosting, Neural Networks, and Support Vector Machines (SVM). Other subjects in this culture (Linear Regression, Logistics and Stepwise, Decision Trees, Discriminant Analysis, Cluster Analysis, and Principal Components Analysis) are familiar to me because they are already widely used in the data modeling culture, and I have worked on them in dozens of situations. 
+---
 
-In this context, I have attempted to study the most popular Data Science tools, including SQL, R, Python (numpy, pandas, matplotlib, seaborn, statsmodels, scipy, scikit-learn, and so on), PowerBi, and Tableau. I've used RStudio and Jupyter as IDEs within the Anaconda environment.
+## About me
 
+I am a Brazilian researcher, consultant, and professor with a background in **Finance, Applied Statistics, and Quantitative Methods**. My early work was grounded in **Econometrics**; in recent years, I have expanded that foundation into **Psychometrics, machine learning, and reproducible workflows**.
 
-* 🌍  I'm based in Uberlândia, Minas Gerais, Brazil
-* 🖥️  See my portfolio at [Personal Website](http://www.phdpablo.com)
-* 🚀  I'm currently working on [Educational materials for data analysts and scientists](http://www.youtube.com/c/PsicoEconoMETRIA)
-* 🧠  I'm learning Advanced Machine Leaning in Python and R
-* 🤝  I'm open to collaborating on Anything related to data science and data analysis
+My work combines three fronts:
 
-### Skills
+- **Research**: quantitative methods, latent variable modeling, financial behavior, open science, and applied analytics
+- **Consulting**: statistical modeling, measurement validation, forecasting, data analysis, and methodological design
+- **Education**: tutorials, open educational resources, and public-facing scientific communication for applied social scientists
 
+---
 
-<p align="left">
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rlang-colored.svg" width="36" height="36" alt="rlang" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>  and much more... see on my <a href="https://www.phdpablo.com">Website</a>
-</p>
+## What I do
 
+- Design and evaluate **quantitative research strategies**
+- Analyze data using **classical statistics, multivariate methods, and machine learning**
+- Work with **latent variables**, instrument validation, EFA, CFA, SEM, and related psychometric methods
+- Build **reproducible analytical workflows** with open tools
+- Create educational content to make advanced methods more accessible to researchers and practitioners
 
-### Socials
+---
 
-<p align="left"> <a href="https://www.facebook.com/psicoeconometria" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /> </picture> </a> <a href="https://www.github.com/phdpablo" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/psicoeconometria" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/phdpablo" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://www.youtube.com/@PsicoEconoMETRIA" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /> </picture> </a> <a href="https://www.twitch.tv/phdpablo" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" width="32" height="32" /> </picture> </a></p>
+## Selected highlights
 
-### Badges
+- **20+ years** working with quantitative analysis
+- **150+ documented projects** across multiple domains
+- Experience spanning **Finance, Health, Psychology, Education, Epidemiology, Business, and Economics**
+- Author of publications on **quantitative methods, psychometrics, finance, and open science**
+- Creator of open tutorials and resources for applied researchers in Brazil
 
-<b>My GitHub Stats</b>
+---
 
-<a href="http://www.github.com/phdpablo"><img src="https://github-readme-streak-stats.herokuapp.com/?user=phdpablo&stroke=ffffff&background=000000&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+## Focus areas
+
+`Econometrics` `Psychometrics` `Data Science` `Open Science` `Reproducible Research` `Machine Learning` `Financial Research` `Quantitative Methods`
+
+---
+
+## Open educational resources
+
+A significant part of my work is devoted to translating advanced quantitative methods into practical, accessible materials.
+
+### Recommended resources
+
+- **Open Science in Practice**
+  - https://phdpablo.github.io/curso-open-science/
+
+- **Best Practices for Your Confirmatory Factor Analysis**
+  - https://phdpablo.github.io/cfa-brm/
+
+- **Article Reproducibility Template & Environment**
+  - https://phdpablo.github.io/article-template/
+
+- **Psico&Econo_METRIA YouTube Channel**
+  - https://www.youtube.com/@PsicoEconoMETRIA
+
+---
+
+## Selected publication topics
+
+My publications and technical work include themes such as:
+
+- confirmatory and exploratory factor analysis
+- structural equation modeling
+- financial well-being and behavioral finance
+- corporate governance and capital markets
+- reproducibility and open science practices
+- quantitative methods for applied social sciences
+
+See the full list here:
+- https://phdpablo.com/papers.html
+
+---
+
+<details>
+<summary><strong>Methods and tools</strong></summary>
+
+### Quantitative methods
+Descriptive statistics, ANOVA, regression, GLM, GEE, GLMM, multivariate analysis, time series, spatial analysis, SEM, IRT, survival analysis, causal and predictive modeling.
+
+### Machine learning
+Lasso, Ridge, KNN, Random Forests, Bagging, Boosting, Neural Networks, SVM, decision trees, clustering, and dimensionality reduction.
+
+### Tools
+R, Python, JASP, jamovi, SQL, Git/GitHub, Quarto, Markdown, Docker, Power BI, Tableau, SPSS, Stata.
+
+</details>
+
+---
+
+## Current interests
+
+- open and reproducible research workflows
+- AI-assisted computational literacy for applied scientists
+- psychometric modeling and measurement quality
+- predictive analytics for real-world decision-making
+- educational content for data analysts and researchers
+
+---
+
+## Connect
+
+- Website: https://phdpablo.com
+- LinkedIn: https://www.linkedin.com/in/phdpablo
+- GitHub: https://github.com/phdpablo
+- YouTube: https://www.youtube.com/@PsicoEconoMETRIA
+
+---
+
+## GitHub
+
+<a href="https://github.com/phdpablo">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=phdpablo&show_icons=true&hide_border=true" />
+</a>
+<a href="https://github.com/phdpablo">
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=phdpablo&hide_border=true" />
+</a>
